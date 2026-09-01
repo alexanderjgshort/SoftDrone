@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32N645I0H3Q"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-05-04:23:16)
+    (mountForm default
+        (footprintRef "BGA178C80P14X14_1200X1200X100")
+        (spec "System")
+    )
+)

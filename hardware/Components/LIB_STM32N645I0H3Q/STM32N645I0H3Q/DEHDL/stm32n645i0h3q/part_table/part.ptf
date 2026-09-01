@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32N645I0H3Q'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32N645I0H3Q" (!) = "", "BGA178C80P14X14_1200X1200X100", "BGA", "", "", "", "", "Arm Cortex-M55-based MCU, with ST Neural-ART Accelerator, H264 encoder, Neo-Chrom 2.5D GPU, 4.2 Mbytes contiguous SRAM", "https://www.st.com/resource/en/datasheet/stm32n657a0.pdf", "1 mm"
+END_PART
+
+END.
