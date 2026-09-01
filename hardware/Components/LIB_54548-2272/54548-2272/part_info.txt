@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=54548-2272
+PartCategory=Connector
+PackageCategory=Other
+PinCount=24
+Version=1.5
+Released=2024-01-19 08:43:10
+Downloaded=2026-09-01 21:04:30
+3D=Y
