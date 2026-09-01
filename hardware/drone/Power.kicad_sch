@@ -8016,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "STM32N645I0:BGA178C80P14X14_1200X1200X100"
 			(at 154.94 135.89 0)
 			(hide yes)
 			(show_name no)

@@ -8489,7 +8489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32N645I0:BGA178C80P14X14_1200X1200X100"
 			(at 48.26 66.04 0)
 			(hide yes)
 			(show_name no)
