@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=DPX167125DT-8197B1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2024-11-28 15:30:58
+Downloaded=2026-09-02 20:45:46
+3D=Y

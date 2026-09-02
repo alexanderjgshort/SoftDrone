@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DPX167125DT-8197B1"
+   (description "Signal Conditioning Multilayer DPX for 2.4-2.5GHz W-LAN&BT/5-7GHz W-LAN")
+   (family "ANA")
+   (package "DPX167125DT8197B1")
+   (attribute "Datasheet Link" "https://www.mouser.ph/ProductDetail/TDK/DPX167125DT-8197B1?qs=iLKYxzqNS75cuGe4fWh6hg%3D%3D")
+   (attribute "Geometry.Height" "0.7mm")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "DPX167125DT-8197B1")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "DPX167125DT-8197B1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/dpx167125dt-8197b1/tdk?utm_currency=USD&region=nac")
+   (gate
+    (symbol "DPX167125DT-8197B1")
+    (pin "GND_1" 1 PS)
+    (pin "COMMON_PORT" 2 PS)
+    (pin "GND_2" 3 PS)
+    (pin "LOW-BAND_PORT" 4 PS)
+    (pin "GND_3" 5 PS)
+    (pin "HIGH-BAND_PORT" 6 PS)
+   )
+  )
+  (symbol "DPX167125DT-8197B1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1800 100) (pt 1800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DPX167125DT8197B1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 -0.4)
+      (pt 0.8 -0.4)
+      (pt 0.8 0.4)
+      (pt -0.8 0.4)
+      (pt -0.8 -0.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 1.75)
+      (pt 1.8 1.75)
+      (pt 1.8 -1.75)
+      (pt -1.8 -1.75)
+      (pt -1.8 1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.55 -1.1)
+      (arc (pt -0.550 -1.100) (pt -0.600 -1.200) (pt -0.500 -1.100) (start 180.0) (sweep 90.0))
+      (pt -0.55 -1.2)
+      (arc (pt -0.550 -1.200) (pt -0.600 -1.200) (pt -0.500 -1.100) (start 180.0) (sweep -90.0))
+      (pt -0.55 -1.1))))
+   (leg 1 (pt -0.550 -0.450) (padstack 0))
+   (leg 2 (pt 0.000 -0.450) (padstack 0))
+   (leg 3 (pt 0.550 -0.450) (padstack 0))
+   (leg 4 (pt 0.550 0.450) (padstack 0))
+   (leg 5 (pt 0.000 0.450) (padstack 0))
+   (leg 6 (pt -0.550 0.450) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.600 0 0 90.000))
+   )
+   (model "DPX167125DT-8197B1.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.009999999776482582)
+   )
+  )
+ )
+)

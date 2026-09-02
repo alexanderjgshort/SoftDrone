@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DPX167125DT_8197B1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "DPX167125DT-8197B1" (!) = "", "DPX167125DT8197B1", "Other", "", "", "DPX167125DT-8197B1", "https://www.arrow.com/en/products/dpx167125dt-8197b1/tdk?utm_currency=USD&region=nac", "Signal Conditioning Multilayer DPX for 2.4-2.5GHz W-LAN&BT/5-7GHz W-LAN", "https://www.mouser.ph/ProductDetail/TDK/DPX167125DT-8197B1?qs=iLKYxzqNS75cuGe4fWh6hg%3D%3D", "0.7 mm"
+END_PART
+
+END.
