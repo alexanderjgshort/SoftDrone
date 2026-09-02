@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MX25UW25645GXDI00-TR
+D NOR Flash Serial NOR 1.8V 256Mbit x8 I/O BGA-24 RWW
+K
+F https://www.mouser.pl/pdfDocs/MX25UM25345G,18V,256Mb,v10.pdf
+$ENDCMP
+#
+#End Doc Library

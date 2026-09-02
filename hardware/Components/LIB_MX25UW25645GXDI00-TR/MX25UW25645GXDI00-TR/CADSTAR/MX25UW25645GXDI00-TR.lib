@@ -1,0 +1,19 @@
+.MX25UW25645GXDI00-TR :1 ;NOR Flash Serial NOR 1.8V 256Mbit x8 I/O BGA-24 RWW
+BGA24C100P5X5_600X800X120
+*STM IC
+*NGS
+*PNM 1=A2 2=A3 3=A4 4=A5 5=B1 6=B2 7=B3 8=B4 9=B5 10=C1 11=C2 12=C3 13=C4 14=C5 15=D1 16=D2 17=D3 18=D4 19=D5 20=E1 21=E2 22=E3 23=E4 24=E5
+*PLB 1="NC_1" 2="NC_2" 3="RESET#" 4="ECS#" 5="DNU_1" 6="SCLK" 7="GND" 8="VCC" 9="DNU_2" 10="VSSQ_1" 11="CS#" 12="DQS" 13="SIO2" 14="NC_3" 15="VCCQ_1" 16="SIO1" 17="SIO0" 18="SIO3" 19="SIO4" 20="SIO7" 21="SIO6" 22="SIO5" 23="VCCQ_2" 24="VSSQ_2"
+*MXP 24
+*DFN MX25UW25645GXDI00-TR
+~!Manufacturer_Name (Macronix)
+~!Manufacturer_Part_Number (MX25UW25645GXDI00-TR)
+~!Mouser Part Number (95-25UW25645GXDITR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Macronix/MX25UW25645GXDI00-TR?qs=mELouGlnn3eQHWVuM4C6Wg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.pl/pdfDocs/MX25UM25345G,18V,256Mb,v10.pdf)
+~!Height (1.2mm)
+~!3D_Model (MX25UW25645GXDI00-TR)
+MX25UW25645GXDI00-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 

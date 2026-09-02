@@ -1,0 +1,9 @@
+Manufacturer=Macronix
+PartNumber=MX25UW25645GXDI00-TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=24
+Version=1.1
+Released=2025-09-12 03:31:05
+Downloaded=2026-09-02 16:06:10
+3D=Y
