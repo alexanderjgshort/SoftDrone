@@ -2294,12 +2294,6 @@
 		(uuid "ed789c58-64db-4acd-b726-6bc425d41659")
 	)
 	(junction
-		(at 166.37 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5e6991a-0a89-43e9-913a-bdfdbb0edd60")
-	)
-	(junction
 		(at 58.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2460,16 +2454,6 @@
 			(type default)
 		)
 		(uuid "2328df98-45a6-4000-832c-370099e5f0e3")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31) (xy 166.37 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2498c113-c6b2-42f4-93a7-a11a71b8ac40")
 	)
 	(wire
 		(pts
@@ -3511,7 +3495,7 @@
 		)
 		(uuid "faae15dc-f50f-4da4-92fd-0e126321424a")
 	)
-	(global_label "CC_SDIO_D1"
+	(global_label "CC_SDMMC1_D1"
 		(shape input)
 		(at 171.45 97.79 0)
 		(fields_autoplaced yes)
@@ -3523,7 +3507,7 @@
 		)
 		(uuid "05ee4497-f84c-4b28-b8f4-9ed76cf62e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8047 97.79 0)
+			(at 189.2517 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3663,7 @@
 			)
 		)
 	)
-	(global_label "CC_SDIO_D3"
+	(global_label "CC_SDMMC1_D3"
 		(shape input)
 		(at 171.45 102.87 0)
 		(fields_autoplaced yes)
@@ -3691,7 +3675,7 @@
 		)
 		(uuid "7d3aed68-ce84-4971-9460-d8e1cdf7e59c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8047 102.87 0)
+			(at 189.2517 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3735,7 @@
 			)
 		)
 	)
-	(global_label "CC_SDIO_D0"
+	(global_label "CC_SDMMC1_D0"
 		(shape input)
 		(at 171.45 95.25 0)
 		(fields_autoplaced yes)
@@ -3763,7 +3747,7 @@
 		)
 		(uuid "9aca2e1d-823a-431f-98ed-dae9089ab19e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8047 95.25 0)
+			(at 189.2517 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +3807,7 @@
 			)
 		)
 	)
-	(global_label "CC_SDIO_CMD"
+	(global_label "CC_SDMMC1_CMD"
 		(shape input)
 		(at 171.45 92.71 0)
 		(fields_autoplaced yes)
@@ -3835,7 +3819,7 @@
 		)
 		(uuid "a7d0edb9-f121-4288-bd7b-c83d37259449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3166 92.71 0)
+			(at 190.7636 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +3831,7 @@
 			)
 		)
 	)
-	(global_label "CC_SDIO_CLK"
+	(global_label "CC_SDMMC1_CLK"
 		(shape input)
 		(at 171.45 90.17 0)
 		(fields_autoplaced yes)
@@ -3859,7 +3843,7 @@
 		)
 		(uuid "ab6a5b42-0395-42a8-839b-5d5350a8f609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 90.17 0)
+			(at 190.3403 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3943,7 +3927,7 @@
 			)
 		)
 	)
-	(global_label "CC_SDIO_D2"
+	(global_label "CC_SDMMC1_D2"
 		(shape input)
 		(at 171.45 100.33 0)
 		(fields_autoplaced yes)
@@ -3955,7 +3939,7 @@
 		)
 		(uuid "e95d048a-1d5d-467d-97bf-11c4c72eb0bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8047 100.33 0)
+			(at 189.2517 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
