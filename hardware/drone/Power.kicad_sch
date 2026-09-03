@@ -5223,7 +5223,7 @@
 	)
 	(text "5V -> 1.8V LDO"
 		(exclude_from_sim no)
-		(at 35.814 150.876 0)
+		(at 35.306 150.876 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5236,7 +5236,7 @@
 	)
 	(text "5V -> 3.3V SMPS"
 		(exclude_from_sim no)
-		(at 35.814 91.186 0)
+		(at 35.306 91.186 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5249,7 +5249,7 @@
 	)
 	(text "5V -> 1.8V SMPS"
 		(exclude_from_sim no)
-		(at 35.052 31.496 0)
+		(at 34.544 31.496 0)
 		(effects
 			(font
 				(size 5.08 5.08)

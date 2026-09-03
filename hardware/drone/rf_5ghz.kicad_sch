@@ -2687,16 +2687,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 176.53) (xy 149.86 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb35744-d725-4d5b-b81d-4422356eac76")
-	)
-	(wire
-		(pts
 			(xy 110.49 176.53) (xy 134.62 176.53)
 		)
 		(stroke
@@ -3127,6 +3117,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 176.53) (xy 165.1 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e94fe7-2f46-4d4c-89bb-82d8ffc814e4")
+	)
+	(wire
+		(pts
 			(xy 133.35 132.08) (xy 130.81 132.08)
 		)
 		(stroke
@@ -3465,8 +3465,8 @@
 		)
 		(uuid "342f900f-9987-446c-b526-96da4e3547ba")
 	)
-	(label "ANT_FEED"
-		(at 151.13 176.53 0)
+	(label "CC_ANT_FEED"
+		(at 149.86 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)

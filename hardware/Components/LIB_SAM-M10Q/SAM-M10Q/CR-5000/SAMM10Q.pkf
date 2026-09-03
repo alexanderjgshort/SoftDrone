@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SAMM10Q"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SAMM10Q")
+        (spec "default")
+    )
+)

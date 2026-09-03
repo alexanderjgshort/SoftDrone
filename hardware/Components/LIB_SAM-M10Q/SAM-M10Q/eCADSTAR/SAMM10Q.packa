@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SAM-M10Q"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-10-21-06:20:50)
+    (mountForm default
+        (footprintRef "SAMM10Q")
+        (spec "System")
+    )
+)

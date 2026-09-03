@@ -1,0 +1,18 @@
+.SAM-M10Q :1 ;- RF Receiver Galileo, GLONASS, GPS 1.575GHz, 1.602GHz -165dBm 400kbps On-Board, Patch Module
+SAMM10Q
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="V_IO" 3="V_BCKP" 4="GND_2" 5="GND_3" 6="GND_4" 7="TIMEPULSE" 8="SAFEBOOT_N" 9="SDA" 10="GND_5" 11="GND_6" 12="SCL" 13="TXD" 14="RXD" 15="GND_7" 16="GND_8" 17="VCC" 18="RESET_N" 19="EXTINT" 20="GND_9"
+*MXP 20
+*DFN SAM-M10Q
+~!Manufacturer_Name (u-blox)
+~!Manufacturer_Part_Number (SAM-M10Q)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/u-blox/SAM-M10Q?qs=vvQtp7zwQdOcUykyQtAdbA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://content.u-blox.com/sites/default/files/documents/SAM-M10Q_IntegrationManual_UBX-22020019.pdf)
+~!Height (6.8mm)
+~!3D_Model (SAM-M10Q)
+SAM-M10Q
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 
