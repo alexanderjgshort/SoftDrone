@@ -675,7 +675,7 @@
         "uuid": "62c402a6-ed3f-446b-8423-821e9cc6908b"
       }
     ],
-    "used_designators": "R1-12,TP1-4,MK1-2,IC1,U1-13,#PWR1-110,Y1-3,LS1,C1-82,AE1,SW1,FB1,L1-12,J1",
+    "used_designators": "J1,R1-12,TP1-4,MK1-2,IC1,U1-14,#PWR1-114,Y1-3,LS1,L1-12,FB1,C1-84,AE1,SW1",
     "variants": []
   },
   "sheets": [
@@ -706,6 +706,10 @@
     [
       "c9707772-454c-4a11-9731-f4c991bbc034",
       "Audio"
+    ],
+    [
+      "73325d99-70a4-4158-9179-bdcff983b262",
+      "Sensors"
     ]
   ],
   "text_variables": {},

@@ -13945,7 +13945,7 @@
 			)
 		)
 		(property "Value" "VDDA1V8"
-			(at 231.394 119.634 0)
+			(at 232.664 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

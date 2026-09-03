@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/20504587/1494326/2.50/41/0/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Key Features  Wi-Fi 6 (802.11ax)  Bluetooth Low Energy 5.4 in CC33x1 devices  Companion IC to any processor or MCU host capable of running a TCP/IP stack  Integrated 2.4GHz and 5GHz PA for complete wireless solution with up to +20.5dBm output power.  Operating temperature: 40C to +105C  Application throughput up to 50Mbps Extended Features  Wi-Fi 6  2.4GHz and 5GHz, 20MHz, single spatial stream  MAC, baseband, and RF transceiver with support for IEEE 802.11 a/b/g/n/ax  OFDMA, t&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN40P500X500X80-41N">
+<description>&lt;b&gt;WQFN 41 PINOUT&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.45" y="1.8" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="2" x="-2.45" y="1.4" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="3" x="-2.45" y="1" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="4" x="-2.45" y="0.6" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="5" x="-2.45" y="0.2" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="6" x="-2.45" y="-0.2" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="7" x="-2.45" y="-0.6" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="8" x="-2.45" y="-1" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="9" x="-2.45" y="-1.4" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="10" x="-2.45" y="-1.8" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="11" x="-1.8" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="-1.4" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="-1" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="-0.6" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="-0.2" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="16" x="0.2" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="17" x="0.6" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="18" x="1" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="19" x="1.4" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="1.8" y="-2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="2.45" y="-1.8" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="22" x="2.45" y="-1.4" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="23" x="2.45" y="-1" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="24" x="2.45" y="-0.6" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="25" x="2.45" y="-0.2" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="26" x="2.45" y="0.2" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="27" x="2.45" y="0.6" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="28" x="2.45" y="1" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="29" x="2.45" y="1.4" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="30" x="2.45" y="1.8" dx="0.9" dy="0.2" layer="1" rot="R0"/>
+<smd name="31" x="1.8" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="32" x="1.4" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="33" x="1" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="34" x="0.6" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="35" x="0.2" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="36" x="-0.2" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="37" x="-0.6" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="38" x="-1" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="39" x="-1.4" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="40" x="-1.8" y="2.45" dx="0.9" dy="0.2" layer="1" rot="R90"/>
+<smd name="41" x="0" y="0" dx="3.6" dy="3.6" layer="1" rot="R90"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.05" layer="51"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-2.1" y2="2.5" width="0.1" layer="51"/>
+<circle x="-2.9" y="2.4" radius="0.1" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CC3350ENJARSBR">
+<wire x1="5.08" y1="20.32" x2="45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-38.1" x2="45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-38.1" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
+<text x="46.99" y="25.4" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="46.99" y="22.86" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PA_LDO_OUT" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="RF_BG" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="GND_1" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="VDDA_IN1" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="VDDA_IN2" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="HFXT_P/EXT" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="HFXT_M" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="COEX_GRANT" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="COEX_PRIORITY" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="COEX_REQ" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="UART_RTS" x="12.7" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="UART_CTS" x="15.24" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="UART_RX" x="17.78" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="UART_TX" x="20.32" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="ANT_SEL" x="22.86" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="GND_2" x="25.4" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="VIO" x="27.94" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="SDIO_CMD" x="30.48" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="SDIO_CLK" x="33.02" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="GND_3" x="35.56" y="-43.18" length="middle" direction="io" rot="R90"/>
+<pin name="HOST_IRQ_BLE" x="50.8" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="HOST_IRQ_WL" x="50.8" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="LOGGER" x="50.8" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="SWDIO" x="50.8" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="SWCLK" x="50.8" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="GND_4" x="50.8" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="SDIO_D0" x="50.8" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="SDIO_D1" x="50.8" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="SDIO_D2" x="50.8" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="SDIO_D3" x="50.8" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="EP" x="12.7" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="PA_LDO_IN_2" x="15.24" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="PA_LDO_IN_1" x="17.78" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="RF_A" x="20.32" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="GND_5" x="22.86" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="FAST_CLK_REQ" x="25.4" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="VPP_IN" x="27.94" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="SLOW_CLK_IN" x="30.48" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="NRESET" x="33.02" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="VDD_MAIN_IN" x="35.56" y="25.4" length="middle" direction="io" rot="R270"/>
+<pin name="DIG_LDO_OUT" x="38.1" y="25.4" length="middle" direction="io" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CC3350ENJARSBR" prefix="IC">
+<description>&lt;b&gt;Key Features  Wi-Fi 6 (802.11ax)  Bluetooth Low Energy 5.4 in CC33x1 devices  Companion IC to any processor or MCU host capable of running a TCP/IP stack  Integrated 2.4GHz and 5GHz PA for complete wireless solution with up to +20.5dBm output power.  Operating temperature: 40C to +105C  Application throughput up to 50Mbps Extended Features  Wi-Fi 6  2.4GHz and 5GHz, 20MHz, single spatial stream  MAC, baseband, and RF transceiver with support for IEEE 802.11 a/b/g/n/ax  OFDMA, t&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/ds/symlink/cc3350.pdf?ts=1745530269962&amp;ref_url=https%3A%2F%2Fwww.mouser.com%2F"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CC3350ENJARSBR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN40P500X500X80-41N">
+<connects>
+<connect gate="G$1" pin="PA_LDO_OUT" pad="1"/>
+<connect gate="G$1" pin="RF_BG" pad="2"/>
+<connect gate="G$1" pin="GND_1" pad="3"/>
+<connect gate="G$1" pin="VDDA_IN1" pad="4"/>
+<connect gate="G$1" pin="VDDA_IN2" pad="5"/>
+<connect gate="G$1" pin="HFXT_P/EXT" pad="6"/>
+<connect gate="G$1" pin="HFXT_M" pad="7"/>
+<connect gate="G$1" pin="COEX_GRANT" pad="8"/>
+<connect gate="G$1" pin="COEX_PRIORITY" pad="9"/>
+<connect gate="G$1" pin="COEX_REQ" pad="10"/>
+<connect gate="G$1" pin="UART_RTS" pad="11"/>
+<connect gate="G$1" pin="UART_CTS" pad="12"/>
+<connect gate="G$1" pin="UART_RX" pad="13"/>
+<connect gate="G$1" pin="UART_TX" pad="14"/>
+<connect gate="G$1" pin="ANT_SEL" pad="15"/>
+<connect gate="G$1" pin="GND_2" pad="16"/>
+<connect gate="G$1" pin="VIO" pad="17"/>
+<connect gate="G$1" pin="SDIO_CMD" pad="18"/>
+<connect gate="G$1" pin="SDIO_CLK" pad="19"/>
+<connect gate="G$1" pin="GND_3" pad="20"/>
+<connect gate="G$1" pin="SDIO_D3" pad="21"/>
+<connect gate="G$1" pin="SDIO_D2" pad="22"/>
+<connect gate="G$1" pin="SDIO_D1" pad="23"/>
+<connect gate="G$1" pin="SDIO_D0" pad="24"/>
+<connect gate="G$1" pin="GND_4" pad="25"/>
+<connect gate="G$1" pin="SWCLK" pad="26"/>
+<connect gate="G$1" pin="SWDIO" pad="27"/>
+<connect gate="G$1" pin="LOGGER" pad="28"/>
+<connect gate="G$1" pin="HOST_IRQ_WL" pad="29"/>
+<connect gate="G$1" pin="HOST_IRQ_BLE" pad="30"/>
+<connect gate="G$1" pin="DIG_LDO_OUT" pad="31"/>
+<connect gate="G$1" pin="VDD_MAIN_IN" pad="32"/>
+<connect gate="G$1" pin="NRESET" pad="33"/>
+<connect gate="G$1" pin="SLOW_CLK_IN" pad="34"/>
+<connect gate="G$1" pin="VPP_IN" pad="35"/>
+<connect gate="G$1" pin="FAST_CLK_REQ" pad="36"/>
+<connect gate="G$1" pin="GND_5" pad="37"/>
+<connect gate="G$1" pin="RF_A" pad="38"/>
+<connect gate="G$1" pin="PA_LDO_IN_1" pad="39"/>
+<connect gate="G$1" pin="PA_LDO_IN_2" pad="40"/>
+<connect gate="G$1" pin="EP" pad="41"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="CC3350ENJARSBR" constant="no"/>
+<attribute name="Mouser_Part_Number" value="" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="" constant="no"/>
+<attribute name="Arrow_Part_Number" value="CC3350ENJARSBR" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/cc3350enjarsbr/texas-instruments?utm_currency=USD&amp;region=nac" constant="no"/>
+<attribute name="Description" value="Key Features  Wi-Fi 6 (802.11ax)  Bluetooth Low Energy 5.4 in CC33x1 devices  Companion IC to any processor or MCU host capable of running a TCP/IP stack  Integrated 2.4GHz and 5GHz PA for complete wireless solution with up to +20.5dBm output power.  Operating temperature: 40C to +105C  Application throughput up to 50Mbps Extended Features  Wi-Fi 6  2.4GHz and 5GHz, 20MHz, single spatial stream  MAC, baseband, and RF transceiver with support for IEEE 802.11 a/b/g/n/ax  OFDMA, t" constant="no"/>
+<attribute name="Height" value="0.8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

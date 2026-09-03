@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC3350ENJARSBR
+D Key Features  Wi-Fi 6 (802.11ax)  Bluetooth Low Energy 5.4 in CC33x1 devices  Companion IC to any processor or MCU host capable of running a TCP/IP stack  Integrated 2.4GHz and 5GHz PA for complete wireless solution with up to +20.5dBm output power.  Operating temperature: 40C to +105C  Application throughput up to 50Mbps Extended Features  Wi-Fi 6  2.4GHz and 5GHz, 20MHz, single spatial stream  MAC, baseband, and RF transceiver with support for IEEE 802.11 a/b/g/n/ax  OFDMA, t
+K
+F https://www.ti.com/lit/ds/symlink/cc3350.pdf?ts=1745530269962&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,19 @@
+.CC3350ENJARSBR :1 ;Key Features  Wi-Fi 6 (802.11ax)  Bluetooth Low Energy 5.4 in CC33x1 devices  Companion IC to any processor or MCU host capable of running a TCP/IP stack  Integrated 2.4GHz and 5GHz PA for complete wireless solution with up to +20.5dBm output power.  Operating temperature: 40C to +105C  Application throughput up to 50Mbps Extended Features  Wi-Fi 6  2.4GHz and 5GHz, 20MHz, single spatial stream  MAC, baseband, and RF transceiver with support for IEEE 802.11 a/b/g/n/ax  OFDMA, t
+QFN40P500X500X80-41N-D
+*STM IC
+*NGS
+*PLB 1="PA_LDO_OUT" 2="RF_BG" 3="GND_1" 4="VDDA_IN1" 5="VDDA_IN2" 6="HFXT_P/EXT" 7="HFXT_M" 8="COEX_GRANT" 9="COEX_PRIORITY" 10="COEX_REQ" 11="UART RTS" 12="UART CTS" 13="UART RX" 14="UART TX" 15="ANT_SEL" 16="GND_2" 17="VIO" 18="SDIO CMD" 19="SDIO CLK" 20="GND_3" 21="SDIO_D3" 22="SDIO_D2" 23="SDIO_D1" 24="SDIO_D0" 25="GND_4" 26="SWCLK" 27="SWDIO" 28="LOGGER" 29="HOST_IRQ_WL" 30="HOST_IRQ_BLE" 31="DIG_LDO_OUT" 32="VDD_MAIN_IN" 33="NRESET" 34="SLOW_CLK_IN" &
+35="VPP_IN" 36="FAST_CLK_REQ" 37="GND_5" 38="RF_A" 39="PA_LDO_IN_1" 40="PA_LDO_IN_2" 41="EP"
+*MXP 41
+*DFN CC3350ENJARSBR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (CC3350ENJARSBR)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (CC3350ENJARSBR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cc3350enjarsbr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/cc3350.pdf?ts=1745530269962&ref_url=https%253A%252F%252Fwww.mouser.com%252F)
+~!Height (0.8mm)
+~!3D_Model (CC3350ENJARSBR)
+CC3350ENJARSBR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 

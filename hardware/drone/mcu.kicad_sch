@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "cc1cb3a7-b3d9-4697-b75c-455be5129982")
-	(paper "A3")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -5159,6 +5159,46 @@
 		)
 		(uuid "a2ac8df1-ac2a-44b5-89d8-79d5880ec1c9")
 	)
+	(text_box "Already pinmuxxed:\n\nSPI5\nSPI1\nI2C1\nSDMMC1\nSAI2"
+		(exclude_from_sim no)
+		(at 132.08 273.05 0)
+		(size 71.12 67.31)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "83b04ec7-7895-4e1e-9a3e-8123eebd58a1")
+	)
+	(text_box "To be pinmuxxed:\n\nSPI1_CS\nIMU_INT1\nIMU_CLKIN (optional)"
+		(exclude_from_sim no)
+		(at 55.88 273.05 0)
+		(size 71.12 67.31)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "afbbee16-1588-4cb2-8545-02cf4281c584")
+	)
 	(junction
 		(at 90.17 71.12)
 		(diameter 0)
@@ -5409,6 +5449,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 48.26) (xy 378.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147ccbaa-7952-4110-8072-73a7fddb392c")
+	)
+	(wire
+		(pts
 			(xy 102.87 198.12) (xy 95.25 198.12)
 		)
 		(stroke
@@ -5486,6 +5536,16 @@
 			(type default)
 		)
 		(uuid "1eedc6f5-b7bf-4bc9-b532-a75cead4b414")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20273ca6-c16e-4623-87b4-eb51a1562fe5")
 	)
 	(wire
 		(pts
@@ -5636,6 +5696,26 @@
 			(type default)
 		)
 		(uuid "47b58975-ab27-449b-b81e-54e8e922d7e9")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc0a458-7581-4fbf-8ff1-06169ff7b39a")
+	)
+	(wire
+		(pts
+			(xy 384.81 53.34) (xy 378.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d759209-cfcc-4a9c-97e1-f65a52b74628")
 	)
 	(wire
 		(pts
@@ -5869,6 +5949,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 50.8) (xy 378.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7cb775-221d-4b88-9ce6-f4acdef5b360")
+	)
+	(wire
+		(pts
 			(xy 116.84 191.77) (xy 116.84 187.96)
 		)
 		(stroke
@@ -5886,6 +5976,16 @@
 			(type default)
 		)
 		(uuid "9594c38e-077d-4c31-ade2-1f4a233fbb05")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c9a382-808f-4a13-be07-3ac4369de7b2")
 	)
 	(wire
 		(pts
@@ -6049,6 +6149,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 115.57) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2001c2-39b4-4230-a2d3-2df4965b437a")
+	)
+	(wire
+		(pts
 			(xy 82.55 218.44) (xy 102.87 218.44)
 		)
 		(stroke
@@ -6076,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "c77ad1b5-4ede-4fcc-a20a-9130483ba224")
+	)
+	(wire
+		(pts
+			(xy 251.46 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b8d97c-0a37-4b2b-9050-65628d59763c")
 	)
 	(wire
 		(pts
@@ -6236,6 +6356,16 @@
 			(type default)
 		)
 		(uuid "e8e7134e-18e3-4e26-8c6c-049e19d5e182")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 259.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9079e7c-843c-4e5a-a904-6eb0d8e50cef")
 	)
 	(wire
 		(pts
@@ -6623,6 +6753,126 @@
 			)
 		)
 	)
+	(global_label "IMU_SPI1_MOSI"
+		(shape input)
+		(at 124.46 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f4adab2-beb8-4b6b-8bcb-f309ced139be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.2629 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IMU_SPI1_SCK"
+		(shape input)
+		(at 124.46 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29da559a-3497-4df6-b016-94a150fc0c0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1096 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IMU_SPI1_MISO"
+		(shape input)
+		(at 124.46 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "342c2793-6886-4e34-9eab-6961f4fa0887")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.2629 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CODEC_SAI2_SD_B"
+		(shape input)
+		(at 96.52 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41391434-b477-4f11-b25d-1ddc3294ae4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4806 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CODEC_SAI2_FS_B"
+		(shape input)
+		(at 384.81 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c86196d-06f6-41e6-9743-deab42113033")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.668 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CC_SDMMC1_D3"
 		(shape input)
 		(at 346.71 119.38 0)
@@ -6660,6 +6910,54 @@
 		(uuid "6420b3dd-05ac-4324-9871-4ff03fd41aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.7394 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CODEC_I2C_SCL"
+		(shape input)
+		(at 259.08 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "730c25b7-20b0-4ea2-bc9d-0a8efbe1c218")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.8818 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CODEC_I2C_SDA"
+		(shape input)
+		(at 259.08 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76168a24-5fe6-45fc-852f-c8e56eead5eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,6 +7089,30 @@
 			)
 		)
 	)
+	(global_label "CODEC_SAI2_SD_B"
+		(shape input)
+		(at 384.81 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdf0b4db-d923-4154-8580-1ee96a8429c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.8494 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SX_SPI5_MOSI"
 		(shape input)
 		(at 143.51 118.11 0)
@@ -6828,6 +7150,30 @@
 		(uuid "f1d7db95-b0ca-45ac-b7b5-978041648493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.8927 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CODEC_SAI2_SCK_B"
+		(shape input)
+		(at 384.81 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4c353ab-c0c3-4e43-b6a3-7d617e5eec61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.1194 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +10662,7 @@
 	)
 	(symbol
 		(lib_id "SoftDrone:STM32N645I0")
-		(at 209.55 50.8 0)
+		(at 229.87 49.53 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10327,7 +10673,7 @@
 		(fields_autoplaced yes)
 		(uuid "8735fa23-a5ad-4293-bd1d-5740e37bb69c")
 		(property "Reference" "U1"
-			(at 209.55 36.83 0)
+			(at 229.87 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10337,7 +10683,7 @@
 			)
 		)
 		(property "Value" "STM32N645I0"
-			(at 209.55 39.37 0)
+			(at 229.87 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10347,7 +10693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 50.8 0)
+			(at 229.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10358,7 +10704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 50.8 0)
+			(at 229.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10369,7 +10715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 50.8 0)
+			(at 229.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

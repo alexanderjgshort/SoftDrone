@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CC3350ENJARSBR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-12-10:51:58)
+    (mountForm default
+        (footprintRef "QFN40P500X500X80-41N-D")
+        (spec "System")
+    )
+)

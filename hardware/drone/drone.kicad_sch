@@ -156,6 +156,52 @@
 		)
 	)
 	(sheet
+		(at 22.86 95.25)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73325d99-70a4-4158-9179-bdcff983b262")
+		(property "Sheetname" "Sensors"
+			(at 22.86 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 22.86 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 52.07 63.5)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
