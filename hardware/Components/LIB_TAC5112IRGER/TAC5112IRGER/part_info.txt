@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TAC5112IRGER
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=29
+Version=1.5
+Released=2025-05-28 03:35:55
+Downloaded=2026-09-03 00:40:11
+3D=Y

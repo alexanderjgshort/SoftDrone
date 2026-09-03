@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM4670SD_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM4670SD/NOPB" (!) = "", "SON50P300X300X80-9N", "Small Outline No-lead", "595-LM4670SD/NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM4670SD-NOPB?qs=2k4gZbgf%2F9nNpTS8Wdbmrw%3D%3D", "LM4670SD/NOPB", "https://www.arrow.com/en/products/lm4670sdnopb/texas-instruments?utm_currency=USD&region=nac", "Filterless High Efficiency 3W Switching Audio Amplifier", "http://www.ti.com/lit/gpn/lm4670", "0.8 mm"
+END_PART
+
+END.

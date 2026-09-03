@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4670SD_NOPB
+D Filterless High Efficiency 3W Switching Audio Amplifier
+K
+F http://www.ti.com/lit/gpn/lm4670
+$ENDCMP
+#
+#End Doc Library

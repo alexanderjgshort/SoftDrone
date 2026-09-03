@@ -1,0 +1,18 @@
+.LM4670SD_NOPB :1 ;Filterless High Efficiency 3W Switching Audio Amplifier
+SON50P300X300X80-9N
+*STM IC
+*NGS
+*PLB 1="'SHUTDOWN'" 2="-IN" 3="+IN" 4="GND_1" 5="VO1" 6="GND_2" 7="VDD" 8="VO2" 9="EP"
+*MXP 9
+*DFN LM4670SD_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM4670SD/NOPB)
+~!Mouser Part Number (595-LM4670SD/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM4670SD-NOPB?qs=2k4gZbgf%2F9nNpTS8Wdbmrw%3D%3D)
+~!Arrow Part Number (LM4670SD/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm4670sdnopb/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lm4670)
+~!Height (0.8mm)
+~!3D_Model (LM4670SD_NOPB)
+LM4670SD_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
