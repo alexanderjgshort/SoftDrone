@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "SoftDrone"
 		(exclude_from_sim no)
-		(at 103.632 42.672 0)
+		(at 103.632 37.592 0)
 		(effects
 			(font
 				(size 10.16 10.16)
@@ -18,7 +18,7 @@
 		(uuid "f80ea307-5002-43ef-9584-8014406e9fac")
 	)
 	(sheet
-		(at 137.16 63.5)
+		(at 137.16 58.42)
 		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34,7 +34,7 @@
 		)
 		(uuid "12573955-cca0-44c5-ba75-5717464c7989")
 		(property "Sheetname" "Camera"
-			(at 137.16 62.7884 0)
+			(at 137.16 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Sheetfile" "camera.kicad_sch"
-			(at 137.16 86.9446 0)
+			(at 137.16 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64,7 +64,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 63.5)
+		(at 109.22 58.42)
 		(size 24.13 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -80,7 +80,7 @@
 		)
 		(uuid "5e69e925-338b-411d-9923-3dc150eb85e3")
 		(property "Sheetname" "RF_5GHz"
-			(at 109.22 62.7884 0)
+			(at 109.22 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -91,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "rf_5ghz.kicad_sch"
-			(at 109.22 86.9446 0)
+			(at 109.22 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -110,7 +110,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 63.5)
+		(at 81.28 58.42)
 		(size 24.13 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -126,7 +126,7 @@
 		)
 		(uuid "65bc9e57-6095-4efd-893a-5e1083f61580")
 		(property "Sheetname" "RF_915"
-			(at 81.28 62.7884 0)
+			(at 81.28 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -137,7 +137,7 @@
 			)
 		)
 		(property "Sheetfile" "rf_915.kicad_sch"
-			(at 81.28 86.9446 0)
+			(at 81.28 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -156,7 +156,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 95.25)
+		(at 22.86 90.17)
 		(size 25.4 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -172,7 +172,7 @@
 		)
 		(uuid "73325d99-70a4-4158-9179-bdcff983b262")
 		(property "Sheetname" "Sensors"
-			(at 22.86 94.5384 0)
+			(at 22.86 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 22.86 119.9646 0)
+			(at 22.86 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -202,7 +202,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 63.5)
+		(at 52.07 58.42)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -218,7 +218,7 @@
 		)
 		(uuid "93cf7a35-4ece-42f4-8b64-ee97cf1aaf17")
 		(property "Sheetname" "MCU"
-			(at 52.07 62.7884 0)
+			(at 52.07 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -229,7 +229,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 52.07 86.9446 0)
+			(at 52.07 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -248,7 +248,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 63.5)
+		(at 22.86 58.42)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -264,7 +264,7 @@
 		)
 		(uuid "9b1c1f9e-2215-43f5-a9f4-c7f468848b2f")
 		(property "Sheetname" "Power"
-			(at 22.86 62.7884 0)
+			(at 22.86 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -275,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 22.86 86.9446 0)
+			(at 22.86 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -294,7 +294,7 @@
 		)
 	)
 	(sheet
-		(at 163.83 63.5)
+		(at 163.83 58.42)
 		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -310,7 +310,7 @@
 		)
 		(uuid "c9707772-454c-4a11-9731-f4c991bbc034")
 		(property "Sheetname" "Audio"
-			(at 163.83 62.7884 0)
+			(at 163.83 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,7 +321,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 163.83 86.9446 0)
+			(at 163.83 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BM08B-SRSS-TB_LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-09-05:07:00)
+    (mountForm default
+        (footprintRef "BM08BSRSSTBLFSN")
+        (spec "System")
+    )
+)

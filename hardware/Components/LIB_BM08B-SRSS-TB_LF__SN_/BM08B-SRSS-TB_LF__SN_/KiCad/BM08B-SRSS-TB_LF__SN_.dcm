@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BM08B-SRSS-TB_LF__SN_
+D Connector: wire-board; socket; male; 1A; 50V; PIN: 8; SMT; 1mm; 1x8
+K
+F https://www.jst.com/wp-content/uploads/2021/03/eSR_SZ-new.pdf
+$ENDCMP
+#
+#End Doc Library
