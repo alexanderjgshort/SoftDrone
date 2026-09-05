@@ -64,7 +64,7 @@
 		(symbol "BMP581_1_1"
 			(rectangle
 				(start -8.89 8.89)
-				(end 8.89 -9.525)
+				(end 8.89 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
@@ -110,7 +110,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -12.065 90)
+				(at -2.54 -11.43 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -200,7 +200,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.065 90)
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -218,7 +218,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -12.065 90)
+				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
