@@ -2625,6 +2625,16 @@
 		)
 		(uuid "1cd51143-ca76-4c0d-9403-d239b35e39a7")
 	)
+	(text "Need to figure out voltage requirement for esc board"
+		(exclude_from_sim no)
+		(at 113.03 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25c322b4-e72c-4667-86bb-9c0e093615c8")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 141.732 50.038 0)
@@ -7248,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM08BSRSSTBLFSN"
+		(property "Footprint" ""
 			(at 81.28 300.66 0)
 			(hide yes)
 			(show_name no)

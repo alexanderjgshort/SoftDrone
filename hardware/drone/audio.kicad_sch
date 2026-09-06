@@ -2440,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83166302-9a97-4eff-b989-b2f58d5434b3")
+	)
+	(wire
+		(pts
 			(xy 180.34 80.01) (xy 185.42 80.01)
 		)
 		(stroke
@@ -3085,6 +3095,30 @@
 		(uuid "e687b25f-2e24-48dc-b5aa-addd9d8adc07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.6858 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPK_EN"
+		(shape input)
+		(at 182.88 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff2ceefc-c2d5-45b7-a443-e4234e9b8134")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.6982 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4149,10 +4183,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e959d7f-419a-4284-8667-5602f6e239fb")
 		(property "Reference" "R9"
-			(at 172.72 71.12 90)
+			(at 172.72 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4162,7 +4195,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 172.72 73.66 90)
+			(at 172.72 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5113,7 +5146,7 @@
 		(dnp no)
 		(uuid "bcb28d65-7429-4281-bc25-b1699293e2e4")
 		(property "Reference" "R10"
-			(at 172.72 91.44 90)
+			(at 172.72 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5123,7 +5156,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 172.72 88.9 90)
+			(at 172.72 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

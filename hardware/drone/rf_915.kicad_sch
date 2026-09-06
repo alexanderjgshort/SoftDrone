@@ -1998,6 +1998,10 @@
 		(color 0 0 0 0)
 		(uuid "fce8b1ea-190a-42fe-937d-ab46e42a75b2")
 	)
+	(no_connect
+		(at 49.53 83.82)
+		(uuid "e0f780bf-0bf4-4a64-bee2-0aa5ea7aa5b7")
+	)
 	(wire
 		(pts
 			(xy 36.83 66.04) (xy 49.53 66.04)
