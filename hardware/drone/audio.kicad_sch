@@ -1885,6 +1885,10 @@
 		(uuid "1ca594f7-7201-429d-91e2-75c9cc71f224")
 	)
 	(no_connect
+		(at 97.79 74.93)
+		(uuid "673ae855-fb1a-4b89-b3a5-633195da2aa9")
+	)
+	(no_connect
 		(at 97.79 90.17)
 		(uuid "6bf4ca13-c6a9-4007-bc5a-c342945dc1cc")
 	)
@@ -3044,7 +3048,7 @@
 			)
 		)
 	)
-	(global_label "CODEC_SAI2_SD_B"
+	(global_label "CODEC_SAI2_SD_A"
 		(shape input)
 		(at 154.94 105.41 0)
 		(fields_autoplaced yes)
@@ -3056,7 +3060,7 @@
 		)
 		(uuid "da350a6e-f0e7-4eaa-b326-36bbb286d737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9794 105.41 0)
+			(at 174.798 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

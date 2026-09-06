@@ -3030,6 +3030,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 71.12) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d4116a-78b4-4746-9ffb-0d45e710d5e5")
+	)
+	(wire
+		(pts
 			(xy 104.14 50.8) (xy 104.14 58.42)
 		)
 		(stroke
@@ -3067,6 +3077,30 @@
 			(justify left bottom)
 		)
 		(uuid "961304ff-aeda-4c94-a9c4-2b19e93efd3e")
+	)
+	(global_label "SX_NRST"
+		(shape input)
+		(at 44.45 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "107ba454-0563-4a2f-aa8a-706fc5156ebd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.3006 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "SX_SPI5_MISO"
 		(shape input)

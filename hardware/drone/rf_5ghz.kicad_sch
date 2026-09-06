@@ -3049,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 81.28) (xy 90.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d38378-6bda-4407-a409-39e4108d967c")
+	)
+	(wire
+		(pts
 			(xy 53.34 165.1) (xy 55.88 165.1)
 		)
 		(stroke
@@ -3096,16 +3106,6 @@
 			(type default)
 		)
 		(uuid "4fe45f1e-b455-4d2c-8224-aa59a7bc7243")
-	)
-	(wire
-		(pts
-			(xy 196.85 109.22) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50826e14-1a33-4961-b0ec-878a14cfccc1")
 	)
 	(wire
 		(pts
@@ -3319,13 +3319,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 90.17 81.28)
+			(xy 195.58 109.22) (xy 209.55 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7de062d0-4c37-4cb2-a3e3-a5980185ae9a")
+		(uuid "7bc15048-cdfe-48fa-bd3d-27f989cf99a6")
 	)
 	(wire
 		(pts
@@ -3847,16 +3847,6 @@
 		)
 		(uuid "342f900f-9987-446c-b526-96da4e3547ba")
 	)
-	(label "CC_RESET"
-		(at 76.2 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "365c1212-34e7-4178-a75a-af9f33510498")
-	)
 	(label "CC_SWDIO"
 		(at 196.85 104.14 0)
 		(effects
@@ -3896,16 +3886,6 @@
 			(justify left bottom)
 		)
 		(uuid "71969f49-3692-471f-adcf-ac3fb9d14923")
-	)
-	(label "CC_RESET"
-		(at 196.85 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84361dbc-5505-466b-bfee-802355529f46")
 	)
 	(label "CC_SWDIO"
 		(at 166.37 93.98 180)
@@ -4101,6 +4081,30 @@
 			)
 		)
 	)
+	(global_label "CC_RESET"
+		(shape input)
+		(at 195.58 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5544d24-0a32-4158-b698-42f4291e3edc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.3421 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CC_SDMMC1_D2"
 		(shape input)
 		(at 156.21 83.82 0)
@@ -4122,6 +4126,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CC_RESET"
+		(shape input)
+		(at 87.63 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f81eb144-e198-4bf4-b1a8-4b7a1169e68a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3921 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
