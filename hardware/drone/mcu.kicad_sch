@@ -6984,6 +6984,12 @@
 		(uuid "81f91281-8096-4df7-85cc-e487939a8f88")
 	)
 	(junction
+		(at 143.51 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98af6e44-6e00-4e6f-9e57-4c15fde21831")
+	)
+	(junction
 		(at 294.64 306.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7113,13 +7119,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 115.57) (xy 137.16 115.57)
+			(xy 137.16 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "009a1ff7-9974-490f-8e75-3e7884b972f2")
+		(uuid "0029500f-a814-4a7c-8195-689f1262be37")
 	)
 	(wire
 		(pts
@@ -7303,16 +7309,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 143.51 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122ffcb4-a2ca-4d1b-9eb6-35251e2eabb2")
-	)
-	(wire
-		(pts
 			(xy 135.89 271.78) (xy 124.46 271.78)
 		)
 		(stroke
@@ -7423,6 +7419,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1997c719-b273-48a8-8661-0d62001139c2")
+	)
+	(wire
+		(pts
 			(xy 97.79 123.19) (xy 104.14 123.19)
 		)
 		(stroke
@@ -7503,16 +7509,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 204.47) (xy 283.21 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218f49b0-e9a8-4819-9109-3cd057909f87")
-	)
-	(wire
-		(pts
 			(xy 124.46 271.78) (xy 124.46 273.05)
 		)
 		(stroke
@@ -7520,16 +7516,6 @@
 			(type default)
 		)
 		(uuid "21b8ae94-3779-46d1-b721-df6805ed0348")
-	)
-	(wire
-		(pts
-			(xy 137.16 107.95) (xy 143.51 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2800e061-27b5-407c-a313-6bfa8657db32")
 	)
 	(wire
 		(pts
@@ -7560,6 +7546,16 @@
 			(type default)
 		)
 		(uuid "2a7d3477-713d-4d49-aaae-8552274c82e2")
+	)
+	(wire
+		(pts
+			(xy 232.41 199.39) (xy 236.22 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab8f13b-c815-4fd5-ae2c-d966ffaaf4f5")
 	)
 	(wire
 		(pts
@@ -7660,16 +7656,6 @@
 			(type default)
 		)
 		(uuid "31efd011-37b2-4817-bd65-0ae07726e516")
-	)
-	(wire
-		(pts
-			(xy 143.51 120.65) (xy 137.16 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3364e9f3-82ec-4242-9975-2459bb60066c")
 	)
 	(wire
 		(pts
@@ -8053,16 +8039,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631f5ab4-3e8d-4b30-8db5-b072c22eb268")
-	)
-	(wire
-		(pts
 			(xy 87.63 207.01) (xy 92.71 207.01)
 		)
 		(stroke
@@ -8383,6 +8359,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93413690-2a14-46de-9ba6-12496a47cc2e")
+	)
+	(wire
+		(pts
 			(xy 304.8 279.4) (xy 304.8 280.67)
 		)
 		(stroke
@@ -8443,13 +8429,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 118.11) (xy 137.16 118.11)
+			(xy 143.51 105.41) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c20fa1c-cd24-429f-9213-aee87f2b7ee4")
+		(uuid "9e078b95-261f-4043-8366-1ea5ddd74ee4")
 	)
 	(wire
 		(pts
@@ -8520,6 +8506,16 @@
 			(type default)
 		)
 		(uuid "a1dacb95-d9f0-4433-96a4-e8294f9e7d2a")
+	)
+	(wire
+		(pts
+			(xy 232.41 196.85) (xy 236.22 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ebf776-bf1d-404f-8699-c60eab670e42")
 	)
 	(wire
 		(pts
@@ -8643,6 +8639,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad967c52-7809-4c27-901a-f53121189be4")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addb7365-ba11-431c-8030-4f6f875b07b0")
+	)
+	(wire
+		(pts
 			(xy 87.63 204.47) (xy 92.71 204.47)
 		)
 		(stroke
@@ -8713,6 +8729,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 96.52) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9dc8d9d-74d7-4813-b46b-26bdb6ec0c9c")
+	)
+	(wire
+		(pts
 			(xy 97.79 115.57) (xy 104.14 115.57)
 		)
 		(stroke
@@ -8770,6 +8796,16 @@
 			(type default)
 		)
 		(uuid "c77ad1b5-4ede-4fcc-a20a-9130483ba224")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99dfccd-33fb-4a1a-bfdb-a98d581f37e3")
 	)
 	(wire
 		(pts
@@ -8940,6 +8976,16 @@
 			(type default)
 		)
 		(uuid "df98799a-5ce5-4b7f-b454-e9bcbd51889e")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0853afd-2f4f-447a-b658-f6e835d6f51a")
 	)
 	(wire
 		(pts
@@ -9254,7 +9300,7 @@
 			3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81
 			3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81
 			3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81
-			3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81
+			3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81 3.81
 		)
 		(uuid "06a70950-919a-4ac0-b4c1-de8c7571d6f5")
 		(cells
@@ -13350,94 +13396,9 @@
 				)
 				(uuid "62daa463-63a5-479a-956b-e4535d7449e0")
 			)
-			(table_cell "M10"
-				(exclude_from_sim no)
-				(at 393.065 241.3 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.032 2.032)
-					)
-					(justify left top)
-				)
-				(uuid "d297dedd-af1b-45e8-94d4-74d29fd9160b")
-			)
-			(table_cell "PB12"
-				(exclude_from_sim no)
-				(at 413.385 241.3 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.032 2.032)
-					)
-					(justify left top)
-				)
-				(uuid "4a6bb422-29b4-498a-9951-6df87b7c1c4f")
-			)
-			(table_cell "GPIO (IMU_INT1)"
-				(exclude_from_sim no)
-				(at 433.705 241.3 0)
-				(size 40.64 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.032 2.032)
-					)
-					(justify left top)
-				)
-				(uuid "34ed98c2-8778-4b99-858d-3e74886f98ce")
-			)
-			(table_cell "IMU"
-				(exclude_from_sim no)
-				(at 474.345 241.3 0)
-				(size 38.1 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.032 2.032)
-					)
-					(justify left top)
-				)
-				(uuid "4dffbe0a-7c7a-48df-a4bf-895b0b9cbda1")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 512.445 241.3 0)
-				(size 38.1 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.032 2.032)
-					)
-					(justify left top)
-				)
-				(uuid "86710945-8768-4c3a-ae8d-46f378dc5c2b")
-			)
 			(table_cell "C9"
 				(exclude_from_sim no)
-				(at 393.065 245.11 0)
+				(at 393.065 241.3 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13454,7 +13415,7 @@
 			)
 			(table_cell "PE14"
 				(exclude_from_sim no)
-				(at 413.385 245.11 0)
+				(at 413.385 241.3 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13471,7 +13432,7 @@
 			)
 			(table_cell "GPIO (CODEC_IRQ)"
 				(exclude_from_sim no)
-				(at 433.705 245.11 0)
+				(at 433.705 241.3 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13488,7 +13449,7 @@
 			)
 			(table_cell "Codec"
 				(exclude_from_sim no)
-				(at 474.345 245.11 0)
+				(at 474.345 241.3 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13505,7 +13466,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 245.11 0)
+				(at 512.445 241.3 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13522,7 +13483,7 @@
 			)
 			(table_cell "L2"
 				(exclude_from_sim no)
-				(at 393.065 248.92 0)
+				(at 393.065 245.11 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13539,7 +13500,7 @@
 			)
 			(table_cell "PF11"
 				(exclude_from_sim no)
-				(at 413.385 248.92 0)
+				(at 413.385 245.11 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13556,7 +13517,7 @@
 			)
 			(table_cell "GPIO (SX_BUSY)"
 				(exclude_from_sim no)
-				(at 433.705 248.92 0)
+				(at 433.705 245.11 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13573,7 +13534,7 @@
 			)
 			(table_cell "SX1262"
 				(exclude_from_sim no)
-				(at 474.345 248.92 0)
+				(at 474.345 245.11 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13590,7 +13551,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 248.92 0)
+				(at 512.445 245.11 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13607,7 +13568,7 @@
 			)
 			(table_cell "J3"
 				(exclude_from_sim no)
-				(at 393.065 252.73 0)
+				(at 393.065 248.92 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13624,7 +13585,7 @@
 			)
 			(table_cell "PF10"
 				(exclude_from_sim no)
-				(at 413.385 252.73 0)
+				(at 413.385 248.92 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13641,7 +13602,7 @@
 			)
 			(table_cell "GPIO (SX_IRQ)"
 				(exclude_from_sim no)
-				(at 433.705 252.73 0)
+				(at 433.705 248.92 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13658,7 +13619,7 @@
 			)
 			(table_cell "SX1262"
 				(exclude_from_sim no)
-				(at 474.345 252.73 0)
+				(at 474.345 248.92 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13675,7 +13636,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 252.73 0)
+				(at 512.445 248.92 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13692,7 +13653,7 @@
 			)
 			(table_cell "L1"
 				(exclude_from_sim no)
-				(at 393.065 256.54 0)
+				(at 393.065 252.73 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13709,7 +13670,7 @@
 			)
 			(table_cell "PF8"
 				(exclude_from_sim no)
-				(at 413.385 256.54 0)
+				(at 413.385 252.73 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13726,7 +13687,7 @@
 			)
 			(table_cell "GPIO (SX_NRST)"
 				(exclude_from_sim no)
-				(at 433.705 256.54 0)
+				(at 433.705 252.73 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13743,7 +13704,7 @@
 			)
 			(table_cell "SX1262"
 				(exclude_from_sim no)
-				(at 474.345 256.54 0)
+				(at 474.345 252.73 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13760,7 +13721,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 256.54 0)
+				(at 512.445 252.73 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13777,7 +13738,7 @@
 			)
 			(table_cell "A8"
 				(exclude_from_sim no)
-				(at 393.065 260.35 0)
+				(at 393.065 256.54 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13794,7 +13755,7 @@
 			)
 			(table_cell "PC6"
 				(exclude_from_sim no)
-				(at 413.385 260.35 0)
+				(at 413.385 256.54 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13811,7 +13772,7 @@
 			)
 			(table_cell "GPIO (CC_IRQ_WL)"
 				(exclude_from_sim no)
-				(at 433.705 260.35 0)
+				(at 433.705 256.54 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13828,7 +13789,7 @@
 			)
 			(table_cell "CC3350"
 				(exclude_from_sim no)
-				(at 474.345 260.35 0)
+				(at 474.345 256.54 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13845,7 +13806,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 260.35 0)
+				(at 512.445 256.54 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13862,7 +13823,7 @@
 			)
 			(table_cell "A9"
 				(exclude_from_sim no)
-				(at 393.065 264.16 0)
+				(at 393.065 260.35 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13879,7 +13840,7 @@
 			)
 			(table_cell "PC7"
 				(exclude_from_sim no)
-				(at 413.385 264.16 0)
+				(at 413.385 260.35 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13896,7 +13857,7 @@
 			)
 			(table_cell "GPIO (CC_RESET)"
 				(exclude_from_sim no)
-				(at 433.705 264.16 0)
+				(at 433.705 260.35 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13913,7 +13874,7 @@
 			)
 			(table_cell "CC3350"
 				(exclude_from_sim no)
-				(at 474.345 264.16 0)
+				(at 474.345 260.35 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13930,7 +13891,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 264.16 0)
+				(at 512.445 260.35 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13947,7 +13908,7 @@
 			)
 			(table_cell "E10"
 				(exclude_from_sim no)
-				(at 393.065 267.97 0)
+				(at 393.065 264.16 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13964,7 +13925,7 @@
 			)
 			(table_cell "PD2"
 				(exclude_from_sim no)
-				(at 413.385 267.97 0)
+				(at 413.385 264.16 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13981,7 +13942,7 @@
 			)
 			(table_cell "GPIO (GNSS_TIMEPULSE)"
 				(exclude_from_sim no)
-				(at 433.705 267.97 0)
+				(at 433.705 264.16 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13998,7 +13959,7 @@
 			)
 			(table_cell "GNSS"
 				(exclude_from_sim no)
-				(at 474.345 267.97 0)
+				(at 474.345 264.16 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14015,7 +13976,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 267.97 0)
+				(at 512.445 264.16 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14032,7 +13993,7 @@
 			)
 			(table_cell "A13"
 				(exclude_from_sim no)
-				(at 393.065 271.78 0)
+				(at 393.065 267.97 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14049,7 +14010,7 @@
 			)
 			(table_cell "PD3"
 				(exclude_from_sim no)
-				(at 413.385 271.78 0)
+				(at 413.385 267.97 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14066,7 +14027,7 @@
 			)
 			(table_cell "GPIO (GNSS_RESET_N)"
 				(exclude_from_sim no)
-				(at 433.705 271.78 0)
+				(at 433.705 267.97 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14083,7 +14044,7 @@
 			)
 			(table_cell "GNSS"
 				(exclude_from_sim no)
-				(at 474.345 271.78 0)
+				(at 474.345 267.97 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14100,7 +14061,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 271.78 0)
+				(at 512.445 267.97 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14117,7 +14078,7 @@
 			)
 			(table_cell "L12"
 				(exclude_from_sim no)
-				(at 393.065 275.59 0)
+				(at 393.065 271.78 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14134,7 +14095,7 @@
 			)
 			(table_cell "PG8"
 				(exclude_from_sim no)
-				(at 413.385 275.59 0)
+				(at 413.385 271.78 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14151,7 +14112,7 @@
 			)
 			(table_cell "GPIO (BARO_IRQ)"
 				(exclude_from_sim no)
-				(at 433.705 275.59 0)
+				(at 433.705 271.78 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14168,7 +14129,7 @@
 			)
 			(table_cell "Barometer"
 				(exclude_from_sim no)
-				(at 474.345 275.59 0)
+				(at 474.345 271.78 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14185,7 +14146,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 275.59 0)
+				(at 512.445 271.78 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14202,7 +14163,7 @@
 			)
 			(table_cell "B10"
 				(exclude_from_sim no)
-				(at 393.065 279.4 0)
+				(at 393.065 275.59 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14219,7 +14180,7 @@
 			)
 			(table_cell "PE15"
 				(exclude_from_sim no)
-				(at 413.385 279.4 0)
+				(at 413.385 275.59 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14236,7 +14197,7 @@
 			)
 			(table_cell "GPIO (NRST_CAM)"
 				(exclude_from_sim no)
-				(at 433.705 279.4 0)
+				(at 433.705 275.59 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14253,7 +14214,7 @@
 			)
 			(table_cell "Camera"
 				(exclude_from_sim no)
-				(at 474.345 279.4 0)
+				(at 474.345 275.59 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14270,7 +14231,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 279.4 0)
+				(at 512.445 275.59 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14287,7 +14248,7 @@
 			)
 			(table_cell "B11"
 				(exclude_from_sim no)
-				(at 393.065 283.21 0)
+				(at 393.065 279.4 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14304,7 +14265,7 @@
 			)
 			(table_cell "PD7"
 				(exclude_from_sim no)
-				(at 413.385 283.21 0)
+				(at 413.385 279.4 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14321,7 +14282,7 @@
 			)
 			(table_cell "GPIO (EN_MODULE)"
 				(exclude_from_sim no)
-				(at 433.705 283.21 0)
+				(at 433.705 279.4 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14338,7 +14299,7 @@
 			)
 			(table_cell "Camera"
 				(exclude_from_sim no)
-				(at 474.345 283.21 0)
+				(at 474.345 279.4 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14355,7 +14316,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 283.21 0)
+				(at 512.445 279.4 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14372,7 +14333,7 @@
 			)
 			(table_cell "A1"
 				(exclude_from_sim no)
-				(at 393.065 287.02 0)
+				(at 393.065 283.21 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14389,7 +14350,7 @@
 			)
 			(table_cell "L9"
 				(exclude_from_sim no)
-				(at 413.385 287.02 0)
+				(at 413.385 283.21 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14406,7 +14367,7 @@
 			)
 			(table_cell "GPIO (MAG_INT)"
 				(exclude_from_sim no)
-				(at 433.705 287.02 0)
+				(at 433.705 283.21 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14423,7 +14384,7 @@
 			)
 			(table_cell "Magnetometer"
 				(exclude_from_sim no)
-				(at 474.345 287.02 0)
+				(at 474.345 283.21 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14440,7 +14401,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 287.02 0)
+				(at 512.445 283.21 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14457,7 +14418,7 @@
 			)
 			(table_cell "C14"
 				(exclude_from_sim no)
-				(at 393.065 290.83 0)
+				(at 393.065 287.02 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14474,7 +14435,7 @@
 			)
 			(table_cell "PE10"
 				(exclude_from_sim no)
-				(at 413.385 290.83 0)
+				(at 413.385 287.02 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14491,7 +14452,7 @@
 			)
 			(table_cell "GPIO (SPK_EN)"
 				(exclude_from_sim no)
-				(at 433.705 290.83 0)
+				(at 433.705 287.02 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14508,7 +14469,7 @@
 			)
 			(table_cell "Speaker Amp"
 				(exclude_from_sim no)
-				(at 474.345 290.83 0)
+				(at 474.345 287.02 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14525,7 +14486,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 290.83 0)
+				(at 512.445 287.02 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14542,7 +14503,7 @@
 			)
 			(table_cell "J12"
 				(exclude_from_sim no)
-				(at 393.065 294.64 0)
+				(at 393.065 290.83 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14559,7 +14520,7 @@
 			)
 			(table_cell "PN12"
 				(exclude_from_sim no)
-				(at 413.385 294.64 0)
+				(at 413.385 290.83 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14576,7 +14537,7 @@
 			)
 			(table_cell "GPIO (OSPI_NRESET)"
 				(exclude_from_sim no)
-				(at 433.705 294.64 0)
+				(at 433.705 290.83 0)
 				(size 40.64 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14593,7 +14554,7 @@
 			)
 			(table_cell "OSPI"
 				(exclude_from_sim no)
-				(at 474.345 294.64 0)
+				(at 474.345 290.83 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14610,7 +14571,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 512.445 294.64 0)
+				(at 512.445 290.83 0)
 				(size 38.1 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14624,6 +14585,176 @@
 					(justify left top)
 				)
 				(uuid "eaf21212-c238-432a-9df5-d250006378e3")
+			)
+			(table_cell "E13"
+				(exclude_from_sim no)
+				(at 393.065 294.64 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "04fb6e66-dedf-40d4-96d1-f528855a0ca2")
+			)
+			(table_cell "PB2"
+				(exclude_from_sim no)
+				(at 413.385 294.64 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "1678ca9e-7873-4876-a220-87571ff8baa4")
+			)
+			(table_cell "GPIO (IMU_INT1)"
+				(exclude_from_sim no)
+				(at 433.705 294.64 0)
+				(size 40.64 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "635082bf-205e-4cc9-95be-100b3f5404de")
+			)
+			(table_cell "IMU"
+				(exclude_from_sim no)
+				(at 474.345 294.64 0)
+				(size 38.1 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "67356431-bdb8-42dd-834b-413ffaf3747b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 512.445 294.64 0)
+				(size 38.1 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "a0f9d380-50bf-447a-9f51-d0daa5360c7b")
+			)
+			(table_cell "E12"
+				(exclude_from_sim no)
+				(at 393.065 298.45 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "9c6dd132-f0bc-4eb1-9a98-184c88267bd7")
+			)
+			(table_cell "PB3"
+				(exclude_from_sim no)
+				(at 413.385 298.45 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "2afcba65-e47e-451c-9f1d-102501209617")
+			)
+			(table_cell "GPIO (IMU_INT2)"
+				(exclude_from_sim no)
+				(at 433.705 298.45 0)
+				(size 40.64 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "31d72be9-5e31-4031-b2b7-39d7f0d757e1")
+			)
+			(table_cell "IMU"
+				(exclude_from_sim no)
+				(at 474.345 298.45 0)
+				(size 38.1 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "11256319-e587-42cb-b43c-50162a7356ce")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 512.445 298.45 0)
+				(size 38.1 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "f26d5f50-367e-46d3-95c8-9207f679989b")
 			)
 		)
 	)
@@ -14989,7 +15120,7 @@
 	)
 	(global_label "SX_SPI5_SCK"
 		(shape input)
-		(at 143.51 120.65 0)
+		(at 148.59 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14999,7 +15130,7 @@
 		)
 		(uuid "0a189be9-edac-4962-8251-7294a2bdb6c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.8927 120.65 0)
+			(at 163.9727 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15109,7 +15240,7 @@
 	)
 	(global_label "SX_IRQ"
 		(shape input)
-		(at 143.51 107.95 0)
+		(at 148.59 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15119,7 +15250,7 @@
 		)
 		(uuid "2cdb5b27-6a48-47ba-84e5-0d97978035d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0871 107.95 0)
+			(at 158.1671 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15301,7 +15432,7 @@
 	)
 	(global_label "SX_SPI5_MISO"
 		(shape input)
-		(at 143.51 113.03 0)
+		(at 148.59 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15311,7 +15442,7 @@
 		)
 		(uuid "6420b3dd-05ac-4324-9871-4ff03fd41aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.7394 113.03 0)
+			(at 164.8194 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15336,30 +15467,6 @@
 		(uuid "6d979a3e-afd5-4776-a528-a2c413c42d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.3018 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_INT1"
-		(shape input)
-		(at 283.21 204.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e5e4c88-bbfb-41f2-a95b-91f264382f86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.6619 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,6 +15571,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "IMU_INT2"
+		(shape input)
+		(at 232.41 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88926d6a-5610-4e3d-9071-77d18c60dafd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.9581 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -15611,6 +15742,30 @@
 			)
 		)
 	)
+	(global_label "IMU_INT1"
+		(shape input)
+		(at 232.41 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac97aa2e-bf70-41a0-bc9c-eff5eb4cbb4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.9581 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CC_SDMMC1_D1"
 		(shape input)
 		(at 87.63 209.55 180)
@@ -15733,7 +15888,7 @@
 	)
 	(global_label "SX_BUSY"
 		(shape input)
-		(at 143.51 110.49 0)
+		(at 148.59 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15743,7 +15898,7 @@
 		)
 		(uuid "c67c394a-0ebc-4f9b-9bf5-4a4f525d0572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7804 110.49 0)
+			(at 159.8604 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15853,7 +16008,7 @@
 	)
 	(global_label "SX_SPI5_MOSI"
 		(shape input)
-		(at 143.51 118.11 0)
+		(at 148.59 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15863,7 +16018,7 @@
 		)
 		(uuid "e03e6db5-9ac3-45f5-8c17-af6b84e172ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.7394 118.11 0)
+			(at 164.8194 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15901,7 +16056,7 @@
 	)
 	(global_label "SX_SPI5_NSS"
 		(shape input)
-		(at 143.51 115.57 0)
+		(at 148.59 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15911,7 +16066,7 @@
 		)
 		(uuid "f1d7db95-b0ca-45ac-b7b5-978041648493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.8927 115.57 0)
+			(at 163.9727 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17131,6 +17286,84 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/93cf7a35-4ece-42f4-8b64-ee97cf1aaf17"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 143.51 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ff054d-9d3c-4bbc-a368-f589d3fcd0cc")
+		(property "Reference" "#PWR0201"
+			(at 143.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD1V8"
+			(at 143.51 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 143.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9b3679e-a734-4543-bb12-6cce555d0938")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/93cf7a35-4ece-42f4-8b64-ee97cf1aaf17"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -20389,6 +20622,88 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/93cf7a35-4ece-42f4-8b64-ee97cf1aaf17"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1c07a3-53ab-492c-b9ee-c9647a88acd6")
+		(property "Reference" "R40"
+			(at 146.05 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 146.05 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "831bae49-6643-4dab-8538-bc3cda59002b")
+		)
+		(pin "2"
+			(uuid "21a9b24c-7689-4623-a277-6c4a1a1d9d4e")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/93cf7a35-4ece-42f4-8b64-ee97cf1aaf17"
+					(reference "R40")
 					(unit 1)
 				)
 			)

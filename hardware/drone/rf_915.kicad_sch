@@ -2049,40 +2049,16 @@
 		(uuid "d3e638ac-7a57-445b-a33d-cdc2a92a27fa")
 	)
 	(junction
-		(at 137.16 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00d06403-e0b9-4f0f-a5d0-bca4eda8e7b8")
-	)
-	(junction
 		(at 40.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05a26395-1f79-44f8-8913-6766d376a24f")
 	)
 	(junction
-		(at 80.01 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10fc1c88-fb6d-40e3-94a0-c8b9b0bd532e")
-	)
-	(junction
-		(at 80.01 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1478d4e5-1860-4093-9d98-3a0647d75ea6")
-	)
-	(junction
 		(at 59.69 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "234c2984-2ca4-4cc5-9695-2d522aa8a9a2")
-	)
-	(junction
-		(at 80.01 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3275e2b4-6efc-46b8-a1d5-6c4b208877da")
 	)
 	(junction
 		(at 251.46 86.36)
@@ -2127,12 +2103,6 @@
 		(uuid "92a509f4-679a-460b-b3d5-0c6706528bef")
 	)
 	(junction
-		(at 80.01 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be7e5dc8-fbe8-47af-888c-534a674bdb1c")
-	)
-	(junction
 		(at 124.46 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2169,7 +2139,7 @@
 		(uuid "faefc373-5ff7-412b-8ee2-106095a14dd4")
 	)
 	(junction
-		(at 146.05 72.39)
+		(at 144.78 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fce8b1ea-190a-42fe-937d-ab46e42a75b2")
@@ -2420,16 +2390,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 80.01 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35bf6c91-0e09-44f4-8830-188434f50b08")
-	)
-	(wire
-		(pts
 			(xy 44.45 93.98) (xy 49.53 93.98)
 		)
 		(stroke
@@ -2467,16 +2427,6 @@
 			(type default)
 		)
 		(uuid "3ca5bbb0-ac8f-46c1-addb-384af242e72d")
-	)
-	(wire
-		(pts
-			(xy 76.2 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d652013-4936-4031-acae-f90f4e5df2cf")
 	)
 	(wire
 		(pts
@@ -2690,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 49.53) (xy 134.62 49.53)
+			(xy 144.78 49.53) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2717,16 +2667,6 @@
 			(type default)
 		)
 		(uuid "72d3da1f-8f1b-4b40-b03d-d8fac84f2096")
-	)
-	(wire
-		(pts
-			(xy 76.2 83.82) (xy 80.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7308cad8-1207-468d-9cc4-919769326135")
 	)
 	(wire
 		(pts
@@ -2870,16 +2810,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 137.16 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ede9ba-2a39-4aa6-a1b3-ca49d72e5d8e")
-	)
-	(wire
-		(pts
 			(xy 267.97 96.52) (xy 267.97 97.79)
 		)
 		(stroke
@@ -2910,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 146.05 72.39)
+			(xy 144.78 66.04) (xy 144.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2980,23 +2910,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 58.42) (xy 146.05 49.53)
+			(xy 144.78 58.42) (xy 144.78 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c18b213d-c76a-4e02-a52f-bd95b80e3a22")
-	)
-	(wire
-		(pts
-			(xy 146.05 72.39) (xy 151.13 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c315ce14-1c45-4977-88b6-c39a0397ced3")
 	)
 	(wire
 		(pts
@@ -3017,16 +2937,6 @@
 			(type default)
 		)
 		(uuid "c6e4e677-9a9f-48a3-b70a-97be08d2f2ca")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 80.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bddfda-4304-4312-95aa-2933538cba42")
 	)
 	(wire
 		(pts
@@ -3110,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 140.97 72.39)
+			(xy 140.97 72.39) (xy 151.13 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4552,7 +4462,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 146.05 62.23 180)
+		(at 144.78 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4563,7 +4473,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b359d1-97e4-4f29-b6d5-82576ade392a")
 		(property "Reference" "L7"
-			(at 147.32 60.9599 0)
+			(at 146.05 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4484,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 147.32 63.4999 0)
+			(at 146.05 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4585,7 +4495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 62.23 0)
+			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 62.23 0)
+			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4517,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 146.05 62.23 0)
+			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

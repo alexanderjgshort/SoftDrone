@@ -2935,6 +2935,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026c31bb-99ce-4e2a-87d9-e441780ce987")
+	)
+	(wire
+		(pts
 			(xy 77.47 93.98) (xy 77.47 95.25)
 		)
 		(stroke
@@ -3735,6 +3745,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c39a79c-c2db-4559-a67a-cd5f4c12cec5")
+	)
+	(wire
+		(pts
 			(xy 83.82 55.88) (xy 83.82 58.42)
 		)
 		(stroke
@@ -4453,6 +4473,30 @@
 			)
 		)
 	)
+	(global_label "IMU_INT1"
+		(shape input)
+		(at 161.29 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e2f93e0-4a01-4aa9-be4b-d6010d118e49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.8381 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GNSS_TIM_3V3"
 		(shape input)
 		(at 109.22 73.66 0)
@@ -4834,6 +4878,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "IMU_INT2"
+		(shape input)
+		(at 161.29 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4c6d287-476e-4616-9d42-7974f20384db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.8381 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
