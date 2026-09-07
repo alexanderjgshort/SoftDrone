@@ -12083,7 +12083,7 @@
 				)
 				(uuid "acb9d94d-21de-4468-932a-b0642e9a48a6")
 			)
-			(table_cell ""
+			(table_cell "VDD3V3_CAM"
 				(exclude_from_sim no)
 				(at 467.995 60.325 0)
 				(size 30.48 3.81)
