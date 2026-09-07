@@ -339,6 +339,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 52.07 90.17)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d6f18989-7a25-4aa9-ba2f-6652c9d9d4b1")
+		(property "Sheetname" "DESIGN_SUMMARY"
+			(at 52.07 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "designsummary.kicad_sch"
+			(at 52.07 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b"
+					(page "9")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

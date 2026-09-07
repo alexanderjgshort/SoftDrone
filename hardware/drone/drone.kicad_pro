@@ -710,6 +710,10 @@
     [
       "73325d99-70a4-4158-9179-bdcff983b262",
       "Sensors"
+    ],
+    [
+      "d6f18989-7a25-4aa9-ba2f-6652c9d9d4b1",
+      "DESIGN_SUMMARY"
     ]
   ],
   "text_variables": {},
