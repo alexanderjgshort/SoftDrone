@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MM8030-2610RJ3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-20-11:15:47)
+    (mountForm default
+        (footprintRef "MM80302610RJ3")
+        (spec "System")
+    )
+)

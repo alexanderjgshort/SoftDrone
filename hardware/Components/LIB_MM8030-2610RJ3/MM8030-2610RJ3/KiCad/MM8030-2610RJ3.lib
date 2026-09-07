@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MM8030-2610RJ3
+#/573652/1494326/2.50/4/4/Connector
+DEF MM8030-2610RJ3 J 0 30 Y Y 1 F N
+F0 "J" 1050 500 50 H V L CNN
+F1 "MM8030-2610RJ3" 1050 400 50 H V L CNN
+F2 "MM80302610RJ3" 1050 300 50 H I L CNN
+F3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000" 1050 200 50 H I L CNN
+F4 "RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ" 1050 100 50 H I L CNN "Description"
+F5 "1" 1050 0 50 H I L CNN "Height"
+F6 "Murata Electronics" 1050 -100 50 H I L CNN "Manufacturer_Name"
+F7 "MM8030-2610RJ3" 1050 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-MM8030-2610RJ3" 1050 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MM8030-2610RJ3?qs=dnvuLCnOKpt0o1NKcCkttA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "MM8030-2610RJ3" 1050 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mm8030-2610rj3/murata-manufacturing.html?utm_currency=USD&region=nac" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN 1 600 500 200 D 50 50 0 0 P
+X OUT 2 600 -600 200 U 50 50 0 0 P
+X GND_1 3 1200 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 300 1000 300 1000 -400 200 -400 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library

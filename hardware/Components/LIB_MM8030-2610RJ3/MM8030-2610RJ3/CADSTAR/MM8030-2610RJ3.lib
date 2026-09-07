@@ -1,0 +1,18 @@
+.MM8030-2610RJ3 :1 ;RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ
+MM80302610RJ3
+*STM J
+*NGS
+*PLB 1="IN" 2="OUT" 3="GND_1" 4="GND_2"
+*MXP 4
+*DFN MM8030-2610RJ3
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (MM8030-2610RJ3)
+~!Mouser Part Number (81-MM8030-2610RJ3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MM8030-2610RJ3?qs=dnvuLCnOKpt0o1NKcCkttA%3D%3D)
+~!Arrow Part Number (MM8030-2610RJ3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mm8030-2610rj3/murata-manufacturing.html?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000)
+~!Height (1mm)
+~!3D_Model (MM8030-2610RJ3)
+MM8030-2610RJ3
+1.1!U 2.1!U 3.1!U 4.1!U 

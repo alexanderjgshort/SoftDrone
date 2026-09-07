@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MM8030-2610RJ3"
+   (description "RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ")
+   (family "CON")
+   (package "MM80302610RJ3")
+   (attribute "Datasheet Link" "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "MM8030-2610RJ3")
+   (attribute "Mouser Part Number" "81-MM8030-2610RJ3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MM8030-2610RJ3?qs=dnvuLCnOKpt0o1NKcCkttA%3D%3D")
+   (attribute "Arrow Part Number" "MM8030-2610RJ3")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/mm8030-2610rj3/murata-manufacturing.html?utm_currency=USD&region=nac")
+   (gate
+    (symbol "MM8030-2610RJ3")
+    (pin "IN" 1 PS)
+    (pin "OUT" 2 PS)
+    (pin "GND_1" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "MM8030-2610RJ3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 300) (pt 1000 300) (pt 1000 -400) (pt 200 -400) (pt 200 300) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 600 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -600) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MM80302610RJ3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1)
+      (pt 1 1)
+      (pt 1 -1)
+      (pt -1 -1)
+      (pt -1 1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.15 2.15)
+      (pt 2.15 2.15)
+      (pt 2.15 -2.15)
+      (pt -2.15 -2.15)
+      (pt -2.15 2.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.1 1.6)
+      (arc (pt -0.100 1.600) (pt -0.100 1.500) (pt 0.100 1.700) (start 180.0) (sweep 180.0))
+      (pt 0.1 1.6)
+      (arc (pt 0.100 1.600) (pt -0.100 1.500) (pt 0.100 1.700) (start 180.0) (sweep .0))
+      (pt -0.1 1.6))))
+   (leg 1 (pt 0.000 0.950) (padstack 0))
+   (leg 2 (pt 0.000 -0.950) (padstack 0))
+   (leg 3 (pt 0.800 0.000) (padstack 3))
+   (leg 4 (pt -0.800 0.000) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.500 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.100 0 0 90.000))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.100 0 0 90.000))
+   )
+   (model "MM8030-2610RJ3.stp"
+    (euler 90 0 -90)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

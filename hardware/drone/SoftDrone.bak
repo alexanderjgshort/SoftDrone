@@ -3987,6 +3987,24 @@
 				)
 			)
 			(pin power_in line
+				(at 21.59 -24.13 180)
+				(length 3.81)
+				(name "VDDA18PLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -21.59 6.35 0)
 				(length 3.81)
 				(name "VDDCORE"

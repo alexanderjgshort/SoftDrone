@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &MM8030_2610RJ3 "MM8030_2610RJ3")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 09 07 02 58 26)
+      (dataOrigin "573652/1494326/2.50/4/4/Connector")
+      (program "SamacSys ECAD Model MM8030_2610RJ3"
+        (version "2.4"))))
+  (library
+  (rename &MM8030_2610RJ3 "MM8030_2610RJ3")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &MM8030_2610RJ3 "MM8030_2610RJ3")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "MM8030_2610RJ3"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "MM80302610RJ3"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Murata Electronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "MM8030-2610RJ3"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "81-MM8030-2610RJ3"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MM8030-2610RJ3?qs=dnvuLCnOKpt0o1NKcCkttA%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "MM8030-2610RJ3"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/mm8030-2610rj3/murata-manufacturing.html?utm_currency=USD&region=nac"))
+          (property (rename &Description "Description") (string "RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "MM8030_2610RJ3"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &IN "IN")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &OUT "OUT")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &IN (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &OUT (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -900) (pt 400 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -900))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -300) (pt 1000 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -300))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -700)
+                  (pt 0 -700)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)

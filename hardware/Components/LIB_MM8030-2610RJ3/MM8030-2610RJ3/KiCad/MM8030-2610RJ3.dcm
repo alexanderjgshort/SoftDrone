@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MM8030-2610RJ3
+D RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ
+K
+F https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000
+$ENDCMP
+#
+#End Doc Library

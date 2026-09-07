@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MM8030_2610RJ3'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "MM8030-2610RJ3" (!) = "", "MM80302610RJ3", "Other", "81-MM8030-2610RJ3", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MM8030-2610RJ3?qs=dnvuLCnOKpt0o1NKcCkttA%3D%3D", "MM8030-2610RJ3", "https://www.arrow.com/en/products/mm8030-2610rj3/murata-manufacturing.html?utm_currency=USD&region=nac", "RF Connectors / Coaxial Connectors 250Vrms 0.07ohms 11GHZ", "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/connector/o30e.ashx?la=en-sg&cvid=20230202042145000000", "1 mm"
+END_PART
+
+END.
