@@ -2637,6 +2637,16 @@
 		)
 		(uuid "4bbda4d2-1acd-4642-bf6e-8fbf25bdd6cc")
 	)
+	(text "RVT1C100M0405\nC3357"
+		(exclude_from_sim no)
+		(at 298.958 73.406 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb0188e0-9e42-45e5-b189-b003560651a5")
+	)
 	(text "Barometer"
 		(exclude_from_sim no)
 		(at 215.9 50.038 0)
@@ -5256,7 +5266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 242.2652 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5416,7 +5426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 305.7652 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +5586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 318.4652 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6011,7 +6021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 230.8352 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6483,7 +6493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 160.9852 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6725,7 +6735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.5548 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +7085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 329.8952 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +8009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.8152 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8355,7 +8365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 172.4152 72.39 0)
 			(hide yes)
 			(show_name no)

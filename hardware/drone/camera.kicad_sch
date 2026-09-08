@@ -1304,7 +1304,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SoftDrone:ECMF2-40100N6"
+		(symbol "SoftDrone:ECMF2-40A100N6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1320,7 +1320,7 @@
 					)
 				)
 			)
-			(property "Value" "ECMF2-40100N6"
+			(property "Value" "ECMF2-40A100N6"
 				(at -0.508 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1363,7 +1363,7 @@
 					)
 				)
 			)
-			(symbol "ECMF2-40100N6_1_1"
+			(symbol "ECMF2-40A100N6_1_1"
 				(rectangle
 					(start -8.89 4.445)
 					(end 8.89 -4.445)
@@ -6925,98 +6925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SoftDrone:ECMF2-40100N6")
-		(at 146.05 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "033185fa-b200-4477-ba4c-8f9fe79bdec3")
-		(property "Reference" "U25"
-			(at 146.05 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECMF2-40100N6"
-			(at 146.05 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5928f2c5-ea86-4607-a562-e8cfcd6e2f71")
-		)
-		(pin "5"
-			(uuid "fcdcaba9-8773-42bd-bc6c-6f6023a769aa")
-		)
-		(pin "4"
-			(uuid "5d5f97e0-ba60-4651-a540-b86e1cca2bc5")
-		)
-		(pin "3"
-			(uuid "e0643311-e95c-407b-894b-a8b8923c0cb8")
-		)
-		(pin "6"
-			(uuid "1e2c3cf8-23cd-4ca7-8049-04f56a2acb3f")
-		)
-		(pin "2"
-			(uuid "c83a5854-109d-4726-88a5-b95fe916f9a9")
-		)
-		(instances
-			(project "drone"
-				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
-					(reference "U25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 48.26 0)
 		(mirror y)
@@ -7169,98 +7077,6 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
 					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftDrone:ECMF2-40100N6")
-		(at 146.05 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e3cc55c-91c7-47b5-bb36-fa16a99625ea")
-		(property "Reference" "U26"
-			(at 146.05 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECMF2-40100N6"
-			(at 146.05 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "388f7568-bd52-414f-98f1-cd28ca99c420")
-		)
-		(pin "5"
-			(uuid "7e0d3d2c-065e-4543-ac4a-1f83cc830af8")
-		)
-		(pin "4"
-			(uuid "baeecc48-80e6-47cb-b796-b63210125c0f")
-		)
-		(pin "3"
-			(uuid "7ebf0ace-d9c4-446f-8b37-37d03c8a3c4c")
-		)
-		(pin "6"
-			(uuid "807bb7ff-3b65-4add-bd24-04fcba10821e")
-		)
-		(pin "2"
-			(uuid "9f4b56ca-2e24-4f05-bafc-3a94c36c0510")
-		)
-		(instances
-			(project "drone"
-				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
-					(reference "U26")
 					(unit 1)
 				)
 			)
@@ -7421,98 +7237,6 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
 					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftDrone:ECMF2-40100N6")
-		(at 146.05 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "263ba175-da5f-4f20-a37c-0dcbc25810da")
-		(property "Reference" "U27"
-			(at 146.05 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECMF2-40100N6"
-			(at 146.05 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94952b0c-8a0e-49d8-bc9e-a8261289faf1")
-		)
-		(pin "5"
-			(uuid "a6c3ef8b-6a41-4991-ad89-beb83870527c")
-		)
-		(pin "4"
-			(uuid "c8078d01-f802-4615-83d8-dd4765a13c3d")
-		)
-		(pin "3"
-			(uuid "e7ed8022-1149-47de-af60-f2930aa1d624")
-		)
-		(pin "6"
-			(uuid "50b8b326-fb81-4991-b7e6-693f0694dc21")
-		)
-		(pin "2"
-			(uuid "75ecdb9b-5759-4f64-97d6-f09a8fd21f9c")
-		)
-		(instances
-			(project "drone"
-				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
-					(reference "U27")
 					(unit 1)
 				)
 			)
@@ -8633,6 +8357,98 @@
 		)
 	)
 	(symbol
+		(lib_id "SoftDrone:ECMF2-40A100N6")
+		(at 146.05 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "865d806c-4bc7-40ac-86e1-05c4d91364e6")
+		(property "Reference" "U27"
+			(at 146.05 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECMF2-40A100N6"
+			(at 146.05 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+			(at 146.05 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee58d6df-5f1b-40fb-b485-e0b64d9cb7a0")
+		)
+		(pin "5"
+			(uuid "6dc0a63f-8c74-407e-8646-f4555e389f9d")
+		)
+		(pin "4"
+			(uuid "87ebde4c-81da-472c-9de1-4f8baf1a3498")
+		)
+		(pin "3"
+			(uuid "42f60fb2-54ff-499b-9a82-c20b18a5df64")
+		)
+		(pin "1"
+			(uuid "02c1c2af-700a-4a53-b06d-9626f1e5e314")
+		)
+		(pin "6"
+			(uuid "2395bed8-f5fc-4a30-9237-958a049b380e")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
+					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 64.77 0)
 		(mirror y)
@@ -8706,6 +8522,98 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftDrone:ECMF2-40A100N6")
+		(at 146.05 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981f2898-4637-447b-9f0e-24865e00aa20")
+		(property "Reference" "U25"
+			(at 146.05 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECMF2-40A100N6"
+			(at 146.05 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+			(at 146.05 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5e18904-02ca-46d2-8e72-b7d418cb2079")
+		)
+		(pin "5"
+			(uuid "4de1436f-63d2-432e-8b00-9ac4e45a176f")
+		)
+		(pin "4"
+			(uuid "0696aa82-71bf-4879-9e4a-2bf181837794")
+		)
+		(pin "3"
+			(uuid "9b71ee96-cc0a-4e00-94e9-5e472d851f40")
+		)
+		(pin "1"
+			(uuid "bc24106d-e226-4dc3-a1ed-31a7ea6d1145")
+		)
+		(pin "6"
+			(uuid "af96e4ea-e609-43e9-83a2-a4c9f51de972")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -10251,6 +10159,98 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftDrone:ECMF2-40A100N6")
+		(at 146.05 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee140513-490b-4b7f-ba4a-cf10ccf35bf4")
+		(property "Reference" "U26"
+			(at 146.05 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECMF2-40A100N6"
+			(at 146.05 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1523983d-68cb-4c47-94ba-ff61e9c0643c")
+		)
+		(pin "5"
+			(uuid "f876bcbf-ba8c-46f8-9096-f1bec578953e")
+		)
+		(pin "4"
+			(uuid "2448e73c-02ee-4b82-8383-7fa09e3ad61c")
+		)
+		(pin "3"
+			(uuid "55f52373-853d-4c42-8739-d0eafbeec423")
+		)
+		(pin "1"
+			(uuid "fd5ac022-dbe3-4dd4-be79-7fe55a93b6e1")
+		)
+		(pin "6"
+			(uuid "c4b10bf8-fce2-488e-8013-63e97a25095a")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/12573955-cca0-44c5-ba75-5717464c7989"
+					(reference "U26")
 					(unit 1)
 				)
 			)

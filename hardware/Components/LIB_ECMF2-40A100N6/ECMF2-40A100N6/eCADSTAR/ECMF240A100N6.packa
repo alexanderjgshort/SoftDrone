@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECMF2-40A100N6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-12-21-14:29:20)
+    (mountForm default
+        (footprintRef "ECMF240A100N6")
+        (spec "System")
+    )
+)

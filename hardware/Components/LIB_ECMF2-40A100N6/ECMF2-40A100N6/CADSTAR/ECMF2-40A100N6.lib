@@ -1,0 +1,18 @@
+.ECMF2-40A100N6 :1 ;2 Line Common Mode Choke Surface Mount 100mA DCR 3Ohm (Typ) , -55C ~ 125C
+ECMF240A100N6
+*STM FL
+*NGS
+*PLB 1="D+ TO CONNECTOR" 2="D- TO CONNECTOR" 3="GND_1" 4="GND_2" 5="D- TO IC" 6="D+ TO IC"
+*MXP 6
+*DFN ECMF2-40A100N6
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (ECMF2-40A100N6)
+~!Mouser Part Number (511-ECMF2-40A100N6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ECMF2-40A100N6?qs=Znm5pLBrcAJS%2FJmQqRCfmw%3D%3D)
+~!Arrow Part Number (ECMF2-40A100N6)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ecmf2-40a100n6/stmicroelectronics.html?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/ecmf2-40a100n6.pdf)
+~!Height (0.55mm)
+~!3D_Model (ECMF2-40A100N6)
+ECMF2-40A100N6
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
