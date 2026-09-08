@@ -6956,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:ST_UQFN-6L_1.5x1.7mm_P0.5mm"
+		(property "Footprint" ""
 			(at 146.05 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7206,7 +7206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:ST_UQFN-6L_1.5x1.7mm_P0.5mm"
+		(property "Footprint" ""
 			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7300,7 +7300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 234.95 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:ST_UQFN-6L_1.5x1.7mm_P0.5mm"
+		(property "Footprint" ""
 			(at 146.05 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7948,7 +7948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8745,7 +8745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 220.98 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8988,7 +8988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)

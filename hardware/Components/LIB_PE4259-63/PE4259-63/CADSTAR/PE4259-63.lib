@@ -1,0 +1,18 @@
+.PE4259-63 :1 ;SPDT High Power UltraCMOS 10 MHz3.0 GHz RF Switch
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="RF1" 2="GND" 3="RF2" 4="CTRL" 5="RFC" 6="'CTRL OR VDD'"
+*MXP 6
+*DFN PE4259-63
+~!Manufacturer_Name (Peregrine Semiconductor)
+~!Manufacturer_Part_Number (PE4259-63)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.psemi.com/pdf/datasheets/pe4259ds.pdf)
+~!Height (1.1mm)
+~!3D_Model (PE4259-63)
+PE4259-63
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

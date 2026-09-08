@@ -2625,16 +2625,6 @@
 		)
 		(uuid "1cd51143-ca76-4c0d-9403-d239b35e39a7")
 	)
-	(text "Need to figure out voltage requirement for esc board"
-		(exclude_from_sim no)
-		(at 138.176 180.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "25c322b4-e72c-4667-86bb-9c0e093615c8")
-	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 141.732 50.038 0)
@@ -2916,6 +2906,10 @@
 		(uuid "a68aa876-69a4-4061-a968-dc178ea70afb")
 	)
 	(no_connect
+		(at 85.09 208.28)
+		(uuid "adf1a97b-5dbc-4687-84dc-fbaa20a37519")
+	)
+	(no_connect
 		(at 85.09 223.52)
 		(uuid "c7de2b0a-674e-477e-b6a4-889f5c739468")
 	)
@@ -3132,16 +3126,6 @@
 			(type default)
 		)
 		(uuid "21d2d7bd-57c1-4c84-b879-e7fc5d7ac7b7")
-	)
-	(wire
-		(pts
-			(xy 101.6 208.28) (xy 85.09 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259d7945-321b-41c7-939e-92aa47c331e6")
 	)
 	(wire
 		(pts
@@ -3622,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "80410ddb-03c8-4658-bc12-b56e109ff00d")
-	)
-	(wire
-		(pts
-			(xy 101.6 207.01) (xy 101.6 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81353d7d-1c2f-48ee-abf1-4d5cfba45ec2")
 	)
 	(wire
 		(pts
@@ -5146,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+		(property "Footprint" ""
 			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BM08B-SRSS-TB_LF__SN_:BM08BSRSSTBLFSN"
 			(at 81.28 300.66 0)
 			(hide yes)
 			(show_name no)
@@ -7676,84 +7650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 101.6 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd1532c8-1a3f-4cd3-bc25-4871d8faa86e")
-		(property "Reference" "#PWR0217"
-			(at 101.6 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT_UNPROT"
-			(at 101.6 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 101.6 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c97a318-a1de-43e8-87b9-1ddc5fd01328")
-		)
-		(instances
-			(project "drone"
-				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/73325d99-70a4-4158-9179-bdcff983b262"
-					(reference "#PWR0217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 125.73 0)
 		(unit 1)
@@ -7865,7 +7761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+		(property "Footprint" ""
 			(at 357.8352 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8263,7 +8159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+		(property "Footprint" ""
 			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)

@@ -1418,7 +1418,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1436,7 +1436,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 							)
 						)
 					)
-					(number "29"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3231,7 +3231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TAC5111"
+		(property "Value" "TAC5111IRGER"
 			(at 132.9533 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoftDroneLibrary:TAC5111IRGER"
 			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3299,13 +3299,13 @@
 		(pin "15"
 			(uuid "2c853cbf-953a-44a8-9b67-e3f2236254df")
 		)
-		(pin "28"
+		(pin "A4"
 			(uuid "8f9c74af-52a2-432f-9aa5-81de13df03fa")
 		)
 		(pin "20"
 			(uuid "b46ffe99-29d5-47f0-bd52-fecf67d691ff")
 		)
-		(pin "26"
+		(pin "A1"
 			(uuid "5c71434a-5b39-4420-ba25-d64048df71e4")
 		)
 		(pin "2"
@@ -3320,10 +3320,10 @@
 		(pin "8"
 			(uuid "b9703d61-6cbf-4711-b9ed-70a33b2ea612")
 		)
-		(pin "29"
+		(pin "A2"
 			(uuid "eb5df283-6195-4a5c-b2e0-f4f00accb2a8")
 		)
-		(pin "27"
+		(pin "A3"
 			(uuid "aa8a5a92-63b9-4bc4-bec2-6f8ec87e9ae0")
 		)
 		(pin "9"
@@ -5494,7 +5494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" ""
 			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)

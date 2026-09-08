@@ -11893,7 +11893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 294.64 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -17544,7 +17544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 309.88 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -21811,7 +21811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+		(property "Footprint" ""
 			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23491,7 +23491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX25UW25645GXDI00:BGA24C100P5X5_600X800X120"
 			(at 99.06 314.96 0)
 			(hide yes)
 			(show_name no)

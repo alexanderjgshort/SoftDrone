@@ -6118,7 +6118,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -11.43 90)
+					(at -1.27 -11.43 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -6200,6 +6200,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7373,6 +7391,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c54800-de96-4c96-9010-edb48df2905d")
+	)
+	(junction
+		(at 69.85 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e79b0650-a990-4d2e-a5b5-65d888cd0fd3")
 	)
 	(junction
 		(at 113.03 180.34)
@@ -9198,6 +9222,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 256.54) (xy 72.39 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f1f191-a92a-4b33-a8c4-3310b822df6b")
+	)
+	(wire
+		(pts
 			(xy 154.94 252.73) (xy 154.94 254)
 		)
 		(stroke
@@ -9238,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 256.54) (xy 71.12 257.81)
+			(xy 69.85 256.54) (xy 69.85 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9845,6 +9879,16 @@
 			(type default)
 		)
 		(uuid "856abde3-f769-462e-98f1-c1440c6a4076")
+	)
+	(wire
+		(pts
+			(xy 69.85 259.08) (xy 69.85 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f87c25-01ab-4e5d-b4d1-704298ffda12")
 	)
 	(wire
 		(pts
@@ -11318,6 +11362,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 257.81) (xy 69.85 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae4326a-6d6d-4873-822a-7dc8c8cc5c3e")
+	)
+	(wire
+		(pts
 			(xy 212.09 179.07) (xy 212.09 181.61)
 		)
 		(stroke
@@ -11926,7 +11980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+		(property "Footprint" ""
 			(at 339.09 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12274,7 +12328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 142.24 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12591,7 +12645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 96.52 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -13150,7 +13204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 177.8 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 43.18 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14676,7 +14730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 142.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15790,7 +15844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" ""
 			(at 373.0752 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -17379,7 +17433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+		(property "Footprint" "TPS628303ARZER:WQFN-HR8_RZE_TEX"
 			(at 83.82 127 0)
 			(hide yes)
 			(show_name no)
@@ -18468,7 +18522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 143.51 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -21624,7 +21678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 81.915 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -22668,7 +22722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 224.79 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -23672,7 +23726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 257.81 0)
+		(at 69.85 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23683,7 +23737,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7b0b0d2-b31d-40f9-9b3b-3fd86fc69ff1")
 		(property "Reference" "#PWR027"
-			(at 71.12 264.16 0)
+			(at 69.85 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23694,7 +23748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 262.89 0)
+			(at 69.85 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23704,7 +23758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 257.81 0)
+			(at 69.85 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23715,7 +23769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 257.81 0)
+			(at 69.85 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23726,7 +23780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 257.81 0)
+			(at 69.85 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23936,7 +23990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -24657,7 +24711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" ""
 			(at 361.6452 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -24901,7 +24955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -25728,7 +25782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+		(property "Footprint" "TPS628303ARZER:WQFN-HR8_RZE_TEX"
 			(at 83.82 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -25903,7 +25957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 41.91 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -26144,7 +26198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 71.12 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -26200,6 +26254,9 @@
 		)
 		(pin "8"
 			(uuid "1374ae45-88a3-4c3b-a75f-2e199c0b77b3")
+		)
+		(pin "9"
+			(uuid "cf9e51d9-2d3c-465e-ae08-1b49d372105a")
 		)
 		(instances
 			(project "drone"

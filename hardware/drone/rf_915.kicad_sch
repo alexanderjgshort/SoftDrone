@@ -2630,6 +2630,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 78.74) (xy 227.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e731b93-ec20-4e8e-aeaa-ce5915224b9e")
+	)
+	(wire
+		(pts
 			(xy 114.3 73.66) (xy 114.3 49.53)
 		)
 		(stroke
@@ -3037,6 +3047,16 @@
 			(type default)
 		)
 		(uuid "d72ece92-b189-42d2-8212-8f529e921472")
+	)
+	(wire
+		(pts
+			(xy 227.33 82.55) (xy 224.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc62deb3-8bc3-49a9-bb90-2264fce12950")
 	)
 	(wire
 		(pts
@@ -3647,6 +3667,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 227.33 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11bdc064-fd5f-4ab0-9f05-08c4fe3ac4cf")
+		(property "Reference" "#PWR0217"
+			(at 227.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD1V8"
+			(at 227.33 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "118c3c07-fd2e-44d9-9e26-5c71785fd470")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 43.18 0)
 		(unit 1)
@@ -3998,7 +4096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4337,7 +4435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" ""
 			(at 274.32 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6733,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PE4259-63:SOT65P210X110-6N"
 			(at 215.9 86.36 0)
 			(hide yes)
 			(show_name no)
