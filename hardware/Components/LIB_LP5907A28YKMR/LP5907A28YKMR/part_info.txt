@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LP5907A28YKMR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=4
+Version=1.1
+Released=2021-11-17 07:18:16
+Downloaded=2026-09-08 16:43:00
+3D=Y

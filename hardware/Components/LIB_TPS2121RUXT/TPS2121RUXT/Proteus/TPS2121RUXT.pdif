@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS2121RUXT"
+   (description "Power Switch ICs - Power Distribution 2.7-22V, 56mG , 4.5A, Priority Power MUX with Seamless Switchover 12-VQFN-HR -40 to 125")
+   (family "ANA")
+   (package "TPS2121RUXT")
+   (attribute "Datasheet Link" "https://www.arrow.com/en/products/tps2121ruxt/texas-instruments")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS2121RUXT")
+   (attribute "Mouser Part Number" "595-TPS2121RUXT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXT?qs=l7cgNqFNU1i6abJCbO5ulQ%3D%3D")
+   (attribute "Arrow Part Number" "TPS2121RUXT")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2121ruxt/texas-instruments.html?utm_currency=USD&region=nac")
+   (gate
+    (symbol "TPS2121RUXT")
+    (pin "OUT_1" 1 PS)
+    (pin "IN2" 2 PS)
+    (pin "CP2" 3 PS)
+    (pin "OV2" 4 PS)
+    (pin "OV1" 5 PS)
+    (pin "PR1" 6 PS)
+    (pin "IN1" 7 PS)
+    (pin "OUT_2" 8 PS)
+    (pin "ST" 9 PS)
+    (pin "ILIM" 10 PS)
+    (pin "SS" 11 PS)
+    (pin "GND" 12 PS)
+   )
+  )
+  (symbol "TPS2121RUXT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 900 400) (pt 900 -1100) (pt 200 -1100) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1000) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -800) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -1000) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TPS2121RUXT"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 1.25)
+      (pt 1 1.25)
+      (pt 1 -1.25)
+      (pt -1 -1.25)
+      (pt -1 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.9 2.15)
+      (pt 1.9 2.15)
+      (pt 1.9 -2.15)
+      (pt -1.9 -2.15)
+      (pt -1.9 2.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 0.4)
+      (arc (pt -1.500 0.400) (pt -1.600 0.350) (pt -1.500 0.450) (start 180.0) (sweep .0))
+      (pt -1.6 0.4)
+      (arc (pt -1.600 0.400) (pt -1.600 0.350) (pt -1.500 0.450) (start 180.0) (sweep 180.0))
+      (pt -1.5 0.4))))
+   (leg 1 (pt -0.675 0.350) (padstack 1))
+   (leg 2 (pt -0.675 -0.350) (padstack 2))
+   (leg 3 (pt -0.750 -1.150) (padstack 0))
+   (leg 4 (pt -0.250 -1.150) (padstack 0))
+   (leg 5 (pt 0.250 -1.150) (padstack 0))
+   (leg 6 (pt 0.750 -1.150) (padstack 0))
+   (leg 7 (pt 0.675 -0.350) (padstack 7))
+   (leg 8 (pt 0.675 0.350) (padstack 8))
+   (leg 9 (pt 0.750 1.150) (padstack 0))
+   (leg 10 (pt 0.250 1.150) (padstack 10))
+   (leg 11 (pt -0.250 1.150) (padstack 11))
+   (leg 12 (pt -0.750 1.150) (padstack 12))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.600 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.050 0 0 0.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.600 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.600 0 0 90.000))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.600 0 0 90.000))
+   )
+   (model "TPS2121RUXT.stp"
+    (euler 90 0 0)
+    (offset 0 0 1)
+   )
+  )
+ )
+)

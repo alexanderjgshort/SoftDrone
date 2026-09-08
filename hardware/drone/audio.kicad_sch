@@ -5494,7 +5494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm"
 			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LP5907A28YKMR"
+   (description "250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator")
+   (family "ANA")
+   (package "BGA4C35P2X2_64X64X50")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/lp5907")
+   (attribute "Geometry.Height" "0.495mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LP5907A28YKMR")
+   (attribute "Mouser Part Number" "595-LP5907A28YKMR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907A28YKMR?qs=gt1LBUVyoHlMfirnC6rMEg%3D%3D")
+   (attribute "Arrow Part Number" "LP5907A28YKMR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/lp5907a28ykmr/texas-instruments.html?utm_currency=USD&region=nac")
+   (gate
+    (symbol "LP5907A28YKMR")
+    (pin "IN" A1 PS)
+    (pin "OUT" A2 PS)
+    (pin "EN" B1 PS)
+    (pin "GND" B2 PS)
+   )
+  )
+  (symbol "LP5907A28YKMR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BGA4C35P2X2_64X64X50"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.838 0.838)
+      (pt 0.837 0.838)
+      (pt 0.837 -0.837)
+      (pt -0.838 -0.837)
+      (pt -0.838 0.838))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.322 0.322)
+      (pt 0.323 0.322)
+      (pt 0.323 -0.323)
+      (pt -0.322 -0.323)
+      (pt -0.322 0.322))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.322 0.154)
+      (pt -0.153 0.323))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.175 0.629)
+      (pt 0.629 0.629)
+      (pt 0.629 -0.629)
+      (pt -0.629 -0.629)
+      (pt -0.629 0.175)
+      (pt -0.175 0.629))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -0.529 0.629) (pt -0.729 0.629)
+     )
+    )
+   )
+   (leg A1 (pt -0.175 0.175) (padstack 0))
+   (leg A2 (pt 0.175 0.175) (padstack 0))
+   (leg B1 (pt -0.175 -0.175) (padstack 0))
+   (leg B2 (pt 0.175 -0.175) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (round 0.208))
+   )
+   (model "LP5907A28YKMR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

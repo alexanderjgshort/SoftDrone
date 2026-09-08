@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TXU0204BQAR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-11-09:52:26)
+    (mountForm default
+        (footprintRef "TXU0204BQAR")
+        (spec "System")
+    )
+)

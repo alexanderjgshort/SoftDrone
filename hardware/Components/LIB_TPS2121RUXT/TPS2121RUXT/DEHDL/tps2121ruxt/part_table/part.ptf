@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS2121RUXT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS2121RUXT" (!) = "", "TPS2121RUXT", "Other", "595-TPS2121RUXT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXT?qs=l7cgNqFNU1i6abJCbO5ulQ%3D%3D", "TPS2121RUXT", "https://www.arrow.com/en/products/tps2121ruxt/texas-instruments.html?utm_currency=USD&region=nac", "Power Switch ICs - Power Distribution 2.7-22V, 56mG , 4.5A, Priority Power MUX with Seamless Switchover 12-VQFN-HR -40 to 125", "https://www.arrow.com/en/products/tps2121ruxt/texas-instruments", "1 mm"
+END_PART
+
+END.

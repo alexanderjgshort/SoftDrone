@@ -1,0 +1,19 @@
+.LP5907A28YKMR :1 ;250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator
+BGA4C35P2X2_64X64X50
+*STM IC
+*NGS
+*PNM 1=A1 2=A2 3=B1 4=B2
+*PLB 1="IN" 2="OUT" 3="EN" 4="GND"
+*MXP 4
+*DFN LP5907A28YKMR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LP5907A28YKMR)
+~!Mouser Part Number (595-LP5907A28YKMR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907A28YKMR?qs=gt1LBUVyoHlMfirnC6rMEg%3D%3D)
+~!Arrow Part Number (LP5907A28YKMR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lp5907a28ykmr/texas-instruments.html?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lp5907)
+~!Height (0.495mm)
+~!3D_Model (LP5907A28YKMR)
+LP5907A28YKMR
+1.1!U 2.1!U 3.1!U 4.1!U 

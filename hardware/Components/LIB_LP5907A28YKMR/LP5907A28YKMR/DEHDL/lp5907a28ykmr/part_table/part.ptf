@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LP5907A28YKMR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LP5907A28YKMR" (!) = "", "BGA4C35P2X2_64X64X50", "BGA", "595-LP5907A28YKMR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907A28YKMR?qs=gt1LBUVyoHlMfirnC6rMEg%3D%3D", "LP5907A28YKMR", "https://www.arrow.com/en/products/lp5907a28ykmr/texas-instruments.html?utm_currency=USD&region=nac", "250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator", "http://www.ti.com/lit/gpn/lp5907", "0.495 mm"
+END_PART
+
+END.

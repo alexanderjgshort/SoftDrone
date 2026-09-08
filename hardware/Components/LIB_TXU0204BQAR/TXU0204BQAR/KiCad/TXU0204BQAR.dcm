@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXU0204BQAR
+D TXU0204 is a 4-bit, dual-supply noninverting fixed direction voltage level translation device.
+K
+F https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1625930454609
+$ENDCMP
+#
+#End Doc Library

@@ -6267,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:MM8030-2610RJ3"
 			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)

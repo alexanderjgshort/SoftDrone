@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TPS2121RUXT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TPS2121RUXT")
+        (spec "default")
+    )
+)

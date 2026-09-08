@@ -274,7 +274,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|3517900|558800|dc6a193c-a4cd-4665-8d8f-2de763bd1c7e|2f244d64-6210-428f-99f3-ae4c91966c67|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f",
+        ""
+      ],
+      [
+        "pin_to_pin|800100|2413000|63168ff7-45de-4f8a-a064-01a10e6a10f9|c7cc2c86-a770-4cec-afd3-24e6edfaa75c|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f",
+        ""
+      ],
+      [
+        "pin_to_pin|863600|2413000|0940ab6f-da06-4eb0-9b2f-879419842ad8|63168ff7-45de-4f8a-a064-01a10e6a10f9|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2743200|1231900|45469501-4501-42e3-9679-890015eb26fb|00000000-0000-0000-0000-000000000000|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -470,7 +487,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -481,7 +498,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -747,7 +764,7 @@
         "uuid": "62c402a6-ed3f-446b-8423-821e9cc6908b"
       }
     ],
-    "used_designators": "C1-124,AE1-2,SW1,Q1,F1,U1-27,D1-10,TP1-7,R1-44,J1-7,#PWR1-222,Y1-4,LS1,L1-13,FB1-2,IC1,MK1-2",
+    "used_designators": "Q1,SW1,AE1-2,C1-124,R1-44,TP1-7,F1,U1-27,D1-10,LS1,Y1-4,#PWR1-222,L1-13,FB1-2,J1-7,#FLG1-4,MK1-2,IC1",
     "variants": []
   },
   "sheets": [

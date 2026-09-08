@@ -1,0 +1,18 @@
+.TXU0204BQAR :1 ;TXU0204 is a 4-bit, dual-supply noninverting fixed direction voltage level translation device.
+TXU0204BQAR
+*STM IC
+*NGS
+*PLB 1="VCCA" 2="A1" 3="A2" 4="A3Y" 5="A4Y" 6="NC_1" 7="GND" 8="OE" 9="NC_2" 10="B4" 11="B3" 12="B2Y" 13="B1Y" 14="VCCB" 15="EP"
+*MXP 15
+*DFN TXU0204BQAR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TXU0204BQAR)
+~!Mouser Part Number (595-TXU0204BQAR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0204BQAR?qs=QNEnbhJQKvZCd1v9XZcqJQ%3D%3D)
+~!Arrow Part Number (TXU0204BQAR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/txu0204bqar/texas-instruments?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1625930454609)
+~!Height (0.8mm)
+~!3D_Model (TXU0204BQAR)
+TXU0204BQAR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 

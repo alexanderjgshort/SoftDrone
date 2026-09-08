@@ -10290,7 +10290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)

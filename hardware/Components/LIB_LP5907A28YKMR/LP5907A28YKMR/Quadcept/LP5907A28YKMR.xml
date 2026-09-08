@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/952496/1494326/2.50/4/3/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c20.8" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="round" width="8.1889763779527" height="8.1889763779527" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="16.062992125984" height="16.062992125984" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="round" width="8.1889763779527" height="8.1889763779527" />
+  </padstyle>
+  <footprint name="BGA4C35P2X2_64X64X50" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="A1" style="c20.8" originx="-6.8897637795275" originy="6.8897637795275" rotation="90" />
+    <pcbpin number="2" name="A2" style="c20.8" originx="6.8897637795275" originy="6.8897637795275" rotation="90" />
+    <pcbpin number="3" name="B1" style="c20.8" originx="-6.8897637795275" originy="-6.8897637795275" rotation="90" />
+    <pcbpin number="4" name="B2" style="c20.8" originx="6.8897637795275" originy="-6.8897637795275" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-32.992125984252" originy="32.992125984252" endx="32.952755905511" endy="32.992125984252" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="32.952755905511" originy="32.992125984252" endx="32.952755905511" endy="-32.952755905511" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="32.952755905511" originy="-32.952755905511" endx="-32.992125984252" endy="-32.952755905511" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-32.992125984252" originy="-32.952755905511" endx="-32.992125984252" endy="32.992125984252" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-12.677165354331" originy="12.677165354331" endx="12.716535433071" endy="12.677165354331" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="12.716535433071" originy="12.677165354331" endx="12.716535433071" endy="-12.716535433071" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="12.716535433071" originy="-12.716535433071" endx="-12.677165354331" endy="-12.716535433071" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-12.677165354331" originy="-12.716535433071" endx="-12.677165354331" endy="12.677165354331" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-12.677165354331" originy="6.0629921259842" endx="-6.023622047244" endy="12.716535433071" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-6.8897637795275" originy="24.763779527559" endx="24.763779527559" endy="24.763779527559" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="24.763779527559" originy="24.763779527559" endx="24.763779527559" endy="-24.763779527559" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="24.763779527559" originy="-24.763779527559" endx="-24.763779527559" endy="-24.763779527559" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-24.763779527559" originy="-24.763779527559" endx="-24.763779527559" endy="6.8897637795275" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-24.763779527559" originy="6.8897637795275" endx="-6.8897637795275" endy="24.763779527559" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-24.763779527559" originy="24.763779527559" startangle="180" sweepangle="180" radius="3.9370078740157" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-24.763779527559" originy="24.763779527559" startangle="180" sweepangle="-180" radius="3.9370078740157" width="7.8740157480314" />
+  </footprint>
+  <symbol name="LP5907A28YKMR" originx="0" originy="0">
+    <line originx="200" originy="100" endx="800" endy="100" width="0" />
+    <line originx="800" originy="-200" endx="800" endy="100" width="0" />
+    <line originx="800" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="IN" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="A1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="OUT" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="A2" />
+    </sympin>
+    <sympin number="3" originx="800" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="770" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="EN" />
+      <text name="pindes" originx="860" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="B1" />
+    </sympin>
+    <sympin number="4" originx="800" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="770" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="860" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="B2" />
+    </sympin>
+  </symbol>
+  <component name="LP5907A28YKMR" designatorprefix="IC" height="19.488188976378" footprint="BGA4C35P2X2_64X64X50">
+    <comppin designator="A1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="IN" />
+    <comppin designator="A2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="OUT" />
+    <comppin designator="B1" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="EN" />
+    <comppin designator="B2" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <attached_symbol gate="1" name="LP5907A28YKMR" />
+    <pinmap designator="A1" footprintpin="1" />
+    <pinmap designator="A2" footprintpin="2" />
+    <pinmap designator="B1" footprintpin="3" />
+    <pinmap designator="B2" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://www.ti.com/lit/gpn/lp5907" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Texas Instruments" />
+    <text name="Manufacturer_Part_Number" originx="850" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="LP5907A28YKMR" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="595-LP5907A28YKMR" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907A28YKMR?qs=gt1LBUVyoHlMfirnC6rMEg%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="LP5907A28YKMR" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.arrow.com/en/products/lp5907a28ykmr/texas-instruments.html?utm_currency=USD&amp;region=nac" />
+  </component>
+</quadcept_library>

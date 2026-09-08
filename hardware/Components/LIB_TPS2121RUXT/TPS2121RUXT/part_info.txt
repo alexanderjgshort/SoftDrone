@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS2121RUXT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=12
+Version=1.1
+Released=2019-08-07 16:45:43
+Downloaded=2026-09-08 18:15:35
+3D=Y

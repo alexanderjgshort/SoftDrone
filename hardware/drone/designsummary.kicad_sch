@@ -4668,7 +4668,7 @@
 				)
 				(uuid "1c8ee939-a473-4f00-9ed7-e5e95ec41922")
 			)
-			(table_cell "GPIO (GNSS_TIMEPULSE)"
+			(table_cell "GPIO (GNSS_TIM_1V8)"
 				(exclude_from_sim no)
 				(at 71.12 241.3 0)
 				(size 40.64 3.81)

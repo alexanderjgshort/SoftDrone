@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TXU0204BQAR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TXU0204BQAR" (!) = "", "TXU0204BQAR", "Other", "595-TXU0204BQAR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0204BQAR?qs=QNEnbhJQKvZCd1v9XZcqJQ%3D%3D", "TXU0204BQAR", "https://www.arrow.com/en/products/txu0204bqar/texas-instruments?utm_currency=USD&region=europe", "TXU0204 is a 4-bit, dual-supply noninverting fixed direction voltage level translation device.", "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1625930454609", "0.8 mm"
+END_PART
+
+END.

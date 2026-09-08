@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BGA4C35P2X2_64X64X50"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BGA4C35P2X2_64X64X50")
+        (spec "default")
+    )
+)
