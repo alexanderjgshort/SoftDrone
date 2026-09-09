@@ -1599,170 +1599,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SoftDrone:LM5907"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 13.462 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM5907"
-				(at 0.254 12.446 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM5907_1_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SoftDrone:LMR51635XFDDCR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1935,6 +1771,152 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoftDrone:LP5907"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP5907"
+				(at 0 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LP5907_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6719,6 +6701,16 @@
 		)
 		(uuid "289e4390-8b92-42d1-aa74-f8453c4f7af9")
 	)
+	(text "DFE201612P-1R0M\nC337894"
+		(exclude_from_sim no)
+		(at 208.28 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4aafdf1b-450b-4c49-a77a-05d06ddfc506")
+	)
 	(text "RVT1H220M0605\nC27783"
 		(exclude_from_sim no)
 		(at 37.846 67.056 90)
@@ -6751,6 +6743,16 @@
 			)
 		)
 		(uuid "6053ac12-d40e-4992-8d68-f89ae656b902")
+	)
+	(text "C2045043"
+		(exclude_from_sim no)
+		(at 102.108 172.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60e981f8-853d-4705-afdb-7c8998a49ec5")
 	)
 	(text "5V Power Mux"
 		(exclude_from_sim no)
@@ -6829,6 +6831,26 @@
 			(justify left)
 		)
 		(uuid "c9949800-f2f1-4c95-ac8c-7e6fc9ae7157")
+	)
+	(text "C2045043"
+		(exclude_from_sim no)
+		(at 102.616 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d409e0d3-da4b-4e09-9fc9-943415586169")
+	)
+	(text "C5189935"
+		(exclude_from_sim no)
+		(at 127 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7554bb3-26b3-46bd-811b-1d614f74e2e8")
 	)
 	(text "STM32N6 Power"
 		(exclude_from_sim no)
@@ -6974,12 +6996,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20aa0615-98ba-4c59-80df-4ae93bab0de7")
-	)
-	(junction
-		(at 152.4 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22ec7580-f514-4f28-8cea-1dc786d30708")
 	)
 	(junction
 		(at 243.84 266.7)
@@ -9013,16 +9029,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 254) (xy 152.4 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec846ec-ef26-4b7f-93b0-1af15e3be3fa")
-	)
-	(wire
-		(pts
 			(xy 205.74 168.91) (xy 205.74 171.45)
 		)
 		(stroke
@@ -9380,16 +9386,6 @@
 			(type default)
 		)
 		(uuid "60f1f191-a92a-4b33-a8c4-3310b822df6b")
-	)
-	(wire
-		(pts
-			(xy 154.94 252.73) (xy 154.94 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621d4181-f643-41a3-93dc-0d6722cecc61")
 	)
 	(wire
 		(pts
@@ -10903,16 +10899,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 254) (xy 152.4 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a2ab55-acd2-41c1-8194-94274b3340d5")
-	)
-	(wire
-		(pts
 			(xy 95.25 185.42) (xy 107.95 185.42)
 		)
 		(stroke
@@ -11443,7 +11429,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 254) (xy 152.4 255.27)
+			(xy 152.4 252.73) (xy 152.4 254)
 		)
 		(stroke
 			(width 0)
@@ -13346,6 +13332,92 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftDrone:LP5907")
+		(at 152.4 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1121d0a6-64e3-4950-bbbd-0f2c0f72ac9c")
+		(property "Reference" "U12"
+			(at 152.4 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907"
+			(at 152.4 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LP5907A28YKMR:BGA4C35P2X2_64X64X50"
+			(at 152.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B2"
+			(uuid "c0e74823-2b8f-4ba1-b36c-d9da20c99ee6")
+		)
+		(pin "B1"
+			(uuid "0c99d6ec-03ea-4883-9884-c43a492d68f2")
+		)
+		(pin "A1"
+			(uuid "a09411a3-ed24-4fc6-9888-0754e636b1bf")
+		)
+		(pin "A2"
+			(uuid "b3cf2935-538a-4c7a-a069-84daaa6aa3d8")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -15387,7 +15459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:CYA0650-10UH"
 			(at 127 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16503,7 +16575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:CVH201610A-2R2M"
 			(at 220.98 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19096,7 +19168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:TFM201610ALC-R47MTAA"
 			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -21499,97 +21571,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SoftDrone:LM5907")
-		(at 152.4 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95ea4439-5aa5-430a-8893-79c587bd1113")
-		(property "Reference" "U13"
-			(at 152.4 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP5907"
-			(at 152.4 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LP5907A28YKMR:BGA4C35P2X2_64X64X50"
-			(at 152.4 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be6b2e90-1904-4f29-9103-70f713e51e35")
-		)
-		(pin "4"
-			(uuid "400f7bdc-72bc-4441-b3db-da96513cf706")
-		)
-		(pin "3"
-			(uuid "eb448287-9c9b-4496-a7f5-ae9df236d3fa")
-		)
-		(pin "2"
-			(uuid "070a07d2-a836-4c01-ae3d-d79c797984a7")
-		)
-		(pin "5"
-			(uuid "0471eeeb-a081-422b-9bdd-2b54919514c1")
-		)
-		(instances
-			(project "drone"
-				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/9b1c1f9e-2215-43f5-a9f4-c7f468848b2f"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 152.4 255.27 0)
+		(at 152.4 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21600,7 +21583,7 @@
 		(fields_autoplaced yes)
 		(uuid "96466bcd-c79f-4c03-b88a-a0531eef381d")
 		(property "Reference" "#PWR0104"
-			(at 152.4 261.62 0)
+			(at 152.4 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21611,7 +21594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 260.35 0)
+			(at 152.4 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21621,7 +21604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 255.27 0)
+			(at 152.4 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21632,7 +21615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 255.27 0)
+			(at 152.4 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21643,7 +21626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 255.27 0)
+			(at 152.4 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23379,7 +23362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 218.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -24647,7 +24630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 242.57 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -26956,7 +26939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:TFM201610ALC-R47MTAA"
 			(at 101.6 180.34 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ANT-916-HETH"
+   (description "Helical Antenna, Single Band, LPWAN / LoRaWAN, Internal/Embedded Mount, Through-Hole/Tab Mount, Solder, Omnidirectional, Single Port, Gain > 6 dBi")
+   (family "ANA")
+   (package "ANT916HETH")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ant-916-hexx&DocType=Data%20Sheet&DocLang=English&PartCntxt=ANT-916-HETH&DocFormat=pdf")
+   (attribute "Geometry.Height" "9.1mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "ANT-916-HETH")
+   (attribute "Mouser Part Number" "712-ANT-916-HETH")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/ANT-916-HETH?qs=K5ta8V%252BWhtZA1YNNY7nYdQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "ANT-916-HETH")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ANT-916-HETH"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ANT916HETH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.65 -4.45)
+      (pt 26.05 -4.45)
+      (pt 26.05 4.45)
+      (pt -0.65 4.45)
+      (pt -0.65 -4.45))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.125 5.45)
+      (pt 27.525 5.45)
+      (pt 27.525 -5.45)
+      (pt -2.125 -5.45)
+      (pt -2.125 5.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.65 1.4)
+      (pt -0.65 4.45)
+      (pt 26.05 4.45)
+      (pt 26.05 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 26.05 -1.4)
+      (pt 26.05 -4.45)
+      (pt -0.65 -4.45)
+      (pt -0.65 -1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.7 0)
+      (arc (pt -1.700 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.6 0)
+      (arc (pt -1.600 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep .0))
+      (pt -1.7 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 25.400 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (square 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (square 2.250))
+   )
+   (padstack 2
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (model "ANT-916-HETH.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

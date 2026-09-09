@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=ANT-916-HETH
+PartCategory=Antenna
+PackageCategory=Other
+PinCount=2
+Version=2.2
+Released=2024-10-15 08:44:22
+Downloaded=2026-09-09 20:01:16
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ANT-916-HETH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-10-15-08:44:22)
+    (mountForm default
+        (footprintRef "ANT916HETH")
+        (spec "System")
+    )
+)

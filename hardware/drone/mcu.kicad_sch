@@ -7024,6 +7024,26 @@
 		)
 		(uuid "74441fe7-3402-4edb-aacb-8f3b3c31f9c4")
 	)
+	(text "C49329940"
+		(exclude_from_sim no)
+		(at 234.696 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77e5267f-d583-4268-bec3-ba931b26f706")
+	)
+	(text "C6554955"
+		(exclude_from_sim no)
+		(at 158.75 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87cba849-ae99-456d-9f9c-de2dd4371893")
+	)
 	(text "Pinmux nrst pin"
 		(exclude_from_sim no)
 		(at 120.142 300.482 0)
@@ -12444,7 +12464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p"
 			(at 270.51 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12455,7 +12475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 267.6652 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13698,7 +13718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:FC-135R 32.7680KA-A3"
 			(at 158.75 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -13849,7 +13869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "20p"
 			(at 171.45 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +13880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 168.6052 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -13940,7 +13960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:XTM32048000NT00351001"
 			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14039,7 +14059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "20p"
 			(at 153.67 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14050,7 +14070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 150.8252 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -20730,7 +20750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p"
 			(at 246.38 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20741,7 +20761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.5352 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -21971,7 +21991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:1825910-6"
 			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ANT_916_HETH'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "ANT-916-HETH" (!) = "", "ANT916HETH", "Other", "712-ANT-916-HETH", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/ANT-916-HETH?qs=K5ta8V%252BWhtZA1YNNY7nYdQ%3D%3D", "", "", "Helical Antenna, Single Band, LPWAN / LoRaWAN, Internal/Embedded Mount, Through-Hole/Tab Mount, Solder, Omnidirectional, Single Port, Gain > 6 dBi", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ant-916-hexx&DocType=Data%20Sheet&DocLang=English&PartCntxt=ANT-916-HETH&DocFormat=pdf", "9.1 mm"
+END_PART
+
+END.

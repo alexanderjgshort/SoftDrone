@@ -4925,7 +4925,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 80.01 0)
+		(at 232.41 82.55 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4933,10 +4934,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c69ab80-f4da-4655-ae2b-0ec387cfb532")
 		(property "Reference" "J6"
-			(at 233.68 80.0099 0)
+			(at 233.68 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 233.68 82.5499 0)
+			(at 233.68 80.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +4958,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +4969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +4980,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

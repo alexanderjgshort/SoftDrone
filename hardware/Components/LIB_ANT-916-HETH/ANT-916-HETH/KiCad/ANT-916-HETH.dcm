@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANT-916-HETH
+D Helical Antenna, Single Band, LPWAN / LoRaWAN, Internal/Embedded Mount, Through-Hole/Tab Mount, Solder, Omnidirectional, Single Port, Gain > 6 dBi
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ant-916-hexx&DocType=Data%20Sheet&DocLang=English&PartCntxt=ANT-916-HETH&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

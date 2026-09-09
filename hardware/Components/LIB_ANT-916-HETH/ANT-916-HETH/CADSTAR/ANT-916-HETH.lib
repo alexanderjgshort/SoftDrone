@@ -1,0 +1,18 @@
+.ANT-916-HETH :1 ;Helical Antenna, Single Band, LPWAN / LoRaWAN, Internal/Embedded Mount, Through-Hole/Tab Mount, Solder, Omnidirectional, Single Port, Gain > 6 dBi
+ANT916HETH
+*STM ANT
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ANT-916-HETH
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (ANT-916-HETH)
+~!Mouser Part Number (712-ANT-916-HETH)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/ANT-916-HETH?qs=K5ta8V%252BWhtZA1YNNY7nYdQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ant-916-hexx&DocType=Data%20Sheet&DocLang=English&PartCntxt=ANT-916-HETH&DocFormat=pdf)
+~!Height (9.1mm)
+~!3D_Model (ANT-916-HETH)
+ANT-916-HETH
+1.1!U 2.1!U 
