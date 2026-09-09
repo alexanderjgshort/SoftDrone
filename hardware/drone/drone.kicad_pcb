@@ -17602,7 +17602,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p"
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "51152aeb-390a-43e3-9e3c-4379058c6365")
@@ -17742,7 +17742,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "20p"
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "3534519d-45d1-42be-92d0-9b25ec0f16f4")
@@ -26537,7 +26537,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p"
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "acda532e-38f4-4066-b2d1-439c0d3232d6")
@@ -33280,6 +33280,134 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SoftDroneLibrary:ANT-DB1-NSP250-T"
+		(layer "F.Cu")
+		(uuid "adad536f-8575-476d-96a6-8d5acf0d5850")
+		(at 177.115 49.725)
+		(property "Reference" "AE1"
+			(at -0.02 -18.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "73595afb-2937-4916-8767-a28e54a1a71a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Antenna"
+			(at -0.02 -16.75 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2b9487af-6e9c-45cd-90b8-a319b0463d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95913d37-6922-40ba-afc9-0fbcb6f59079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c6abd55-3ffa-47ad-adf8-1c9ca9b7a7b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5e69e925-338b-411d-9923-3dc150eb85e3/a27bf173-2f12-4140-932c-1507dd9266ae")
+		(sheetname "/RF_5GHz/")
+		(sheetfile "rf_5ghz.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.65 1.7)
+			(end 5.93 1.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e58e5647-73b8-457a-bfd4-a71da2bd31c8")
+		)
+		(fp_rect
+			(start -4.19 -8.35)
+			(end 6.19 1.94)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cc43d9fe-af62-4513-b664-c17ada6a644a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.02 -15.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "75e7ed71-97e6-4aeb-b3d1-0ca3a637b26f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.54 0)
+			(size 2.24 2.74)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.03)
+			(net "/RF_5GHz/CC_ANT_FEED")
+			(pinfunction "A_1")
+			(pintype "input")
+			(uuid "e97971a4-f155-4eaf-8270-fe9e9fe67ee4")
+		)
+		(pad "2" smd roundrect
+			(at 2.54 0)
+			(size 2.24 2.74)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.03)
+			(uuid "5f69545a-ba77-4862-a535-a24b86d7ee60")
+		)
+		(embedded_fonts no)
+		(model "/home/alexshort/Repos/drone/hardware/Components/LIB_ANT-DB1-NSP250-T/ANT-DB1-NSP250-T/3D/ANT-DB1-NSP250-T.stp"
+			(offset
+				(xyz 1 -1.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -45939,7 +46067,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "20p"
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "05b415f4-ce43-4de5-9a27-df562e9e98c7")

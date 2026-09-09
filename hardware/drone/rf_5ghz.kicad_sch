@@ -6851,7 +6851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:ANT-DB1-NSP250-T"
 			(at 163.83 157.48 0)
 			(hide yes)
 			(show_name no)
