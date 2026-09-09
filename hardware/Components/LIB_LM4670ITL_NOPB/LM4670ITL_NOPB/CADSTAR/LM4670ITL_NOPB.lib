@@ -1,0 +1,19 @@
+.LM4670ITL_NOPB :1 ;Filterless High Efficiency 3W Switching Audio Amplifier
+BGA9C50P3X3_146X148X68
+*STM IC
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=B1 5=B2 6=B3 7=C1 8=C2 9=C3
+*PLB 1="IN+" 2="GND_1" 3="VO1" 4="VDD" 5="PVDD" 6="GND_2" 7="IN-" 8="'SHUTDOWN'" 9="VO2"
+*MXP 9
+*DFN LM4670ITL_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM4670ITL/NOPB)
+~!Mouser Part Number (595-LM4670ITL/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM4670ITL-NOPB?qs=2k4gZbgf%2F9nVYKjbIJpyZw%3D%3D)
+~!Arrow Part Number (LM4670ITL/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm4670itlnopb/texas-instruments)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lm4670)
+~!Height (0.675mm)
+~!3D_Model (LM4670ITL_NOPB)
+LM4670ITL_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

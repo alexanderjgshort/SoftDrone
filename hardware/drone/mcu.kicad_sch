@@ -11237,7 +11237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.7848 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -11317,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -11479,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 73.152 293.37 90)
 			(hide yes)
 			(show_name no)
@@ -11561,7 +11561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.748 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -11812,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.78 315.468 90)
 			(hide yes)
 			(show_name no)
@@ -11894,7 +11894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 310.642 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -12053,7 +12053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:TPD1E1B04DPYR"
 			(at 294.64 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -12135,7 +12135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 202.438 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12217,7 +12217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 305.7652 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -13778,7 +13778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -14804,7 +14804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -14886,7 +14886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 317.1952 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -16114,7 +16114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.732 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -16948,7 +16948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.1952 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17704,7 +17704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftDroneLibrary:TPD1E1B04DPYR"
 			(at 309.88 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -17869,7 +17869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 131.318 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -18623,7 +18623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 316.23 297.688 90)
 			(hide yes)
 			(show_name no)
@@ -18783,7 +18783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 193.04 90)
 			(hide yes)
 			(show_name no)
@@ -19536,7 +19536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 316.23 300.228 90)
 			(hide yes)
 			(show_name no)
@@ -19618,7 +19618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 301.752 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -19698,7 +19698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 341.63 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -19983,7 +19983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.3548 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -21046,7 +21046,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT60JFILM"
+		(property "Value" "B5819WS"
 			(at 155.2575 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21056,7 +21056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 154.94 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -21733,7 +21733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.78 334.518 90)
 			(hide yes)
 			(show_name no)
@@ -22059,7 +22059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 296.672 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -22220,7 +22220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.2148 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -22300,7 +22300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 208.28 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -23799,7 +23799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.7052 67.31 0)
 			(hide yes)
 			(show_name no)

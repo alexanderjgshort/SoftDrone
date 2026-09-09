@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM4670ITL/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=9
+Version=1.1
+Released=2021-12-29 06:33:38
+Downloaded=2026-09-09 18:13:21
+3D=Y
