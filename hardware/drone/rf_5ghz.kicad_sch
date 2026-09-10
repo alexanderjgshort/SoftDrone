@@ -4531,6 +4531,16 @@
 		)
 		(uuid "c4446435-398b-4444-ba5c-6d67bb1a790a")
 	)
+	(label "CC_PA_LDO_OUT"
+		(at 64.77 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61ddd2b-7185-4006-ae62-0dce4a742d0b")
+	)
 	(label "RF5G_BG"
 		(at 57.15 134.62 0)
 		(effects
@@ -5277,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 164.1348 0)
 			(hide yes)
 			(show_name no)
@@ -6578,7 +6588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 148.59 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 133.35 171.45 0)
 			(hide yes)
 			(show_name no)
