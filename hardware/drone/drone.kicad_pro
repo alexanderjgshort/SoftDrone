@@ -543,6 +543,90 @@
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "name": "CC3350",
+        "pcb_color": "rgb(23, 132, 73)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "CSI",
+        "pcb_color": "rgb(255, 0, 174)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Codec",
+        "pcb_color": "rgb(188, 148, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GNSS",
+        "pcb_color": "rgb(0, 183, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Ground",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "IMU",
+        "pcb_color": "rgb(119, 56, 26)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "OSPI",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RF5G",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RFSUBG",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SX1262",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(129, 59, 180)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -550,7 +634,72 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "*VDD*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VSYS*"
+      },
+      {
+        "netclass": "RFSUBG",
+        "pattern": "*RFI*"
+      },
+      {
+        "netclass": "RFSUBG",
+        "pattern": "*RFO*"
+      },
+      {
+        "netclass": "RFSUBG",
+        "pattern": "*RFVR*"
+      },
+      {
+        "netclass": "CSI",
+        "pattern": "*CSI*"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "OSPI",
+        "pattern": "*OSPI*"
+      },
+      {
+        "netclass": "RF5G",
+        "pattern": "*RF5G*"
+      },
+      {
+        "netclass": "Codec",
+        "pattern": "*CODEC*"
+      },
+      {
+        "netclass": "SX1262",
+        "pattern": "*SX*"
+      },
+      {
+        "netclass": "CC3350",
+        "pattern": "*CC_*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USBC*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*OTG*"
+      },
+      {
+        "netclass": "GNSS",
+        "pattern": "*GNSS*"
+      },
+      {
+        "netclass": "IMU",
+        "pattern": "*IMU*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -764,7 +913,7 @@
         "uuid": "62c402a6-ed3f-446b-8423-821e9cc6908b"
       }
     ],
-    "used_designators": "F1,SW1,AE1-2,C1-126,IC1,TP1-7,R1-45,J1-7,Q1,U1-28,D1-10,#PWR1-222,Y1-4,LS1,FB1-2,L1-13,#FLG1-4,MK1-2",
+    "used_designators": "TP1-7,MK1-2,#FLG1-4,Y1-4,#PWR1-223,C1-127,AE1-2,SW1,J1-7,R1-45,IC1,F1,Q1,D1-10,U1-28,L1-13,FB1-2,LS1",
     "variants": []
   },
   "sheets": [

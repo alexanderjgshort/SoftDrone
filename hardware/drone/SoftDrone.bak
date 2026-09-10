@@ -6540,8 +6540,8 @@
 		(symbol "STM32N645I0_9_1"
 			(unit_name "PG")
 			(rectangle
-				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(start -7.62 12.7)
+				(end 7.62 -12.065)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6551,7 +6551,7 @@
 				)
 			)
 			(text "PG"
-				(at 2.794 4.572 0)
+				(at 2.794 7.112 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -6561,7 +6561,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
+				(at -11.43 -7.62 0)
 				(length 3.81)
 				(name "PG14"
 					(effects
@@ -6579,7 +6579,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 5.08 0)
+				(at -11.43 2.54 0)
 				(length 3.81)
 				(name "PG8"
 					(effects
@@ -6597,7 +6597,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
+				(at -11.43 -10.16 0)
 				(length 3.81)
 				(name "PG15"
 					(effects
@@ -6615,7 +6615,43 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 0 0)
+				(at -11.43 7.62 0)
+				(length 3.81)
+				(name "PG1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 10.16 0)
+				(length 3.81)
+				(name "PG0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 -2.54 0)
 				(length 3.81)
 				(name "PG12"
 					(effects
@@ -6633,7 +6669,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 2.54 0)
+				(at -11.43 0 0)
 				(length 3.81)
 				(name "PG10"
 					(effects
@@ -6651,7 +6687,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 7.62 0)
+				(at -11.43 5.08 0)
 				(length 3.81)
 				(name "PG2"
 					(effects
@@ -6669,7 +6705,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -2.54 0)
+				(at -11.43 -5.08 0)
 				(length 3.81)
 				(name "PG13"
 					(effects
