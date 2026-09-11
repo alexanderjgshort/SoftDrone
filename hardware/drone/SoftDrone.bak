@@ -4701,6 +4701,24 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 0 180)
+				(length 3.81)
+				(name "VSSAPMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -17.78 7.62 0)
 				(length 3.81)
 				(name "VSS"

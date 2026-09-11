@@ -3398,6 +3398,16 @@
 		)
 		(uuid "b590c8a1-ab46-4327-9d49-5bd2e6a30f95")
 	)
+	(label "SX_DCC_SW"
+		(at 81.28 68.58 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "c331118c-48eb-4cae-9c04-23b0e840335c")
+	)
 	(label "SX_XTA"
 		(at 38.1 66.04 0)
 		(effects

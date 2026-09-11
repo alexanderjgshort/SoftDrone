@@ -1,0 +1,18 @@
+.SQA411CEJW-T1_GE3 :1 ;Automotive P-Channel 60 V (D-S) 175 C MOSFET
+SQA411CEJWT1_GE3
+*STM Q
+*NGS
+*PLB 1="D_1" 2="D_2" 3="G" 4="S_1" 5="D_3" 6="D_4" 7="S_2" 8="D_5"
+*MXP 8
+*DFN SQA411CEJW-T1_GE3
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SQA411CEJW-T1_GE3)
+~!Mouser Part Number (78-SQA411CEJW-T1_GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQA411CEJW-T1_GE3?qs=MyNHzdoqoQKvSQEfP%252BAPkA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/en/product/63171/)
+~!Height (0.85mm)
+~!3D_Model (SQA411CEJW-T1_GE3)
+SQA411CEJW-T1_GE3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

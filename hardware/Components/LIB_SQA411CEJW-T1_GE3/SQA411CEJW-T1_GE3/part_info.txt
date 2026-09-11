@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SQA411CEJW-T1_GE3
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=8
+Version=1.3
+Released=2022-05-21 02:07:30
+Downloaded=2026-09-11 18:49:12
+3D=Y

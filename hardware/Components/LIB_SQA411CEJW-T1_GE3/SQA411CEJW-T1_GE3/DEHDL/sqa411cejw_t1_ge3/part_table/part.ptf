@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SQA411CEJW_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SQA411CEJW-T1_GE3" (!) = "", "SQA411CEJWT1_GE3", "Other", "78-SQA411CEJW-T1_GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQA411CEJW-T1_GE3?qs=MyNHzdoqoQKvSQEfP%252BAPkA%3D%3D", "", "", "Automotive P-Channel 60 V (D-S) 175 C MOSFET", "https://www.vishay.com/en/product/63171/", "0.85 mm"
+END_PART
+
+END.

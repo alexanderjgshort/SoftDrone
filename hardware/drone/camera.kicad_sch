@@ -6396,8 +6396,8 @@
 		)
 		(uuid "0b2cf942-46ed-4b1c-89df-4565f5e89f99")
 	)
-	(label "CSI_D1N_CON"
-		(at 215.9 43.18 0)
+	(label "CSI_CON_D0N"
+		(at 215.9 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6406,7 +6406,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0d8dcb53-b7ac-4919-82b1-0fbd4771065b")
+		(uuid "0ca08fff-0f79-4eee-8fd6-a86c7be1ee0c")
 	)
 	(label "CSI_D0N"
 		(at 119.38 41.91 0)
@@ -6420,7 +6420,7 @@
 		)
 		(uuid "0f636b76-f636-4029-bbf5-ec4180af975e")
 	)
-	(label "CSI_CKP_CON"
+	(label "CSI_CON_CKP"
 		(at 175.26 27.94 180)
 		(effects
 			(font
@@ -6442,8 +6442,8 @@
 		)
 		(uuid "19d18364-fed4-4b8b-902e-45858fa92b49")
 	)
-	(label "CSI_CKN_CON"
-		(at 215.9 50.8 0)
+	(label "CSI_CON_D1N"
+		(at 215.9 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1a416b5e-75ce-4cc5-b2d1-cf85fad749f6")
+		(uuid "1ae6a40b-3a57-4883-89f1-b7e5da79c6e1")
 	)
 	(label "CSI_D1N"
 		(at 85.09 63.5 180)
@@ -6466,31 +6466,7 @@
 		)
 		(uuid "1e7746f6-7316-4773-8ac2-1054b3ec913b")
 	)
-	(label "CSI_CKP_CON"
-		(at 215.9 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "204e0b10-41d2-44ca-82e1-684a7134c5c1")
-	)
-	(label "CSI_D1P_CON"
-		(at 215.9 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3476b45f-0213-40ee-b6c7-8d0a28554e0a")
-	)
-	(label "CSI_D1P_CON"
+	(label "CSI_CON_D1P"
 		(at 175.26 60.96 180)
 		(effects
 			(font
@@ -6512,7 +6488,19 @@
 		)
 		(uuid "3cb755f7-f8f8-4c65-b814-6916bf39f2a8")
 	)
-	(label "CSI_D0P_CON"
+	(label "CSI_CON_D0P"
+		(at 215.9 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4715913e-6adf-4d9e-8a89-82418551c922")
+	)
+	(label "CSI_CON_D0P"
 		(at 175.26 44.45 180)
 		(effects
 			(font
@@ -6524,7 +6512,7 @@
 		)
 		(uuid "474e4545-6840-4008-8fe9-c977e1ba963a")
 	)
-	(label "CSI_D1N_CON"
+	(label "CSI_CON_D1N"
 		(at 175.26 58.42 180)
 		(effects
 			(font
@@ -6547,6 +6535,18 @@
 			(justify left bottom)
 		)
 		(uuid "4f8b9bf6-f028-43d7-a761-d213baedbed0")
+	)
+	(label "CSI_CON_CKP"
+		(at 215.9 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5feb2bad-1917-4d56-8d49-12be00a8f353")
 	)
 	(label "CSI_D0P"
 		(at 119.38 44.45 0)
@@ -6630,7 +6630,7 @@
 		)
 		(uuid "acfd0bba-f30f-46d0-a082-fe006e1d48d6")
 	)
-	(label "CSI_D0N_CON"
+	(label "CSI_CON_D0N"
 		(at 175.26 41.91 180)
 		(effects
 			(font
@@ -6676,7 +6676,7 @@
 		)
 		(uuid "dcab1237-b55a-4367-b06a-43212c8eea46")
 	)
-	(label "CSI_CKN_CON"
+	(label "CSI_CON_CKN"
 		(at 175.26 25.4 180)
 		(effects
 			(font
@@ -6688,18 +6688,6 @@
 		)
 		(uuid "ddec602b-64ee-46c5-8544-59bd64665c14")
 	)
-	(label "CSI_D0N_CON"
-		(at 215.9 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e497dba4-f5be-476b-8f85-c6242b7ec310")
-	)
 	(label "I2C1_SDA_3V3"
 		(at 217.17 83.82 0)
 		(effects
@@ -6709,6 +6697,18 @@
 			(justify left bottom)
 		)
 		(uuid "e4dbe207-9f8c-4d3c-942f-98512eae0123")
+	)
+	(label "CSI_CON_D1P"
+		(at 215.9 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6366147-6b37-4541-aef6-54d3fe0c9a8a")
 	)
 	(label "I2C1_SCL_3V3"
 		(at 172.72 113.03 0)
@@ -6732,8 +6732,8 @@
 		)
 		(uuid "e9ae8f7b-32eb-4f30-8983-0d612debc409")
 	)
-	(label "CSI_D0P_CON"
-		(at 215.9 38.1 0)
+	(label "CSI_CON_CKN"
+		(at 215.9 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6742,7 +6742,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f6874af9-79a0-4570-9c69-44c40c221446")
+		(uuid "f53a76ad-700b-4277-9bba-4b25c2a21108")
 	)
 	(global_label "NRST_CAM"
 		(shape input)
@@ -8400,7 +8400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+		(property "Footprint" "SoftDroneLibrary:ECMF2-40A100N6"
 			(at 146.05 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+		(property "Footprint" "SoftDroneLibrary:ECMF2-40A100N6"
 			(at 146.05 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10208,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECMF2-40A100N6:ECMF240A100N6"
+		(property "Footprint" "SoftDroneLibrary:ECMF2-40A100N6"
 			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)

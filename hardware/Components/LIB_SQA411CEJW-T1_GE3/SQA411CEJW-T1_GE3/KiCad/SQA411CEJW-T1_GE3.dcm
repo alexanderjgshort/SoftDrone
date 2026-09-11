@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQA411CEJW-T1_GE3
+D Automotive P-Channel 60 V (D-S) 175 C MOSFET
+K
+F https://www.vishay.com/en/product/63171/
+$ENDCMP
+#
+#End Doc Library
