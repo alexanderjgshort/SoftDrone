@@ -10409,12 +10409,12 @@
 		)
 		(uuid "d409e0d3-da4b-4e09-9fc9-943415586169")
 	)
-	(text "C5189935"
+	(text "C24668140"
 		(exclude_from_sim no)
-		(at 132.08 56.388 0)
+		(at 132.334 57.658 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 		)
 		(uuid "e7554bb3-26b3-46bd-811b-1d614f74e2e8")
@@ -26640,7 +26640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ30CA"
+		(property "Value" "6DFN36CA"
 			(at 208.28 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26651,7 +26651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "SoftDroneLibrary:6DFN12CA"
 			(at 205.74 62.23 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "6DFN36CA-M3_I"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-06-03-13:02:13)
+    (mountForm default
+        (footprintRef "SS5N42HM3I")
+        (spec "System")
+    )
+)

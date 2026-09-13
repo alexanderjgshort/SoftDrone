@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "6DFN36CA-M3_I"
+   (description "ESD Protection Diodes / TVS Diodes 600W,36V 5%, DFN3820A BIDIR TVS")
+   (family "DIO")
+   (package "SS5N42HM3I")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/98490/6dfn12cathru6dfn100ca.pdf")
+   (attribute "Geometry.Height" "0.98mm")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "6DFN36CA-M3/I")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "6DFN36CA-M3_I")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "6DFN36CA-M3_I"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SS5N42HM3I"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.925 1.04)
+      (pt 1.925 1.04)
+      (pt 1.925 -1.04)
+      (pt -1.925 -1.04)
+      (pt -1.925 1.04))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.98 2.04)
+      (pt 2.98 2.04)
+      (pt 2.98 -2.04)
+      (pt -2.98 -2.04)
+      (pt -2.98 2.04))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 0.1)
+      (arc (pt -2.500 0.100) (pt -2.600 -0.100) (pt -2.400 0.100) (start 180.0) (sweep 90.0))
+      (pt -2.5 -0.1)
+      (arc (pt -2.500 -0.100) (pt -2.600 -0.100) (pt -2.400 0.100) (start 180.0) (sweep -90.0))
+      (pt -2.5 0.1))))
+   (leg 1 (pt -0.530 0.000) (padstack 0))
+   (leg 2 (pt 1.630 0.000) (padstack 2))
+   (leg 3 (pt -1.805 0.000) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.930 2.200 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 0.860 0 0 90.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.350 1.300 0 0 90.000))
+   )
+   (model "6DFN36CA-M3_I.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

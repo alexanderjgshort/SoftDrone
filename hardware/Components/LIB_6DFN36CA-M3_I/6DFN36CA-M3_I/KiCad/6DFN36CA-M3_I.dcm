@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6DFN36CA-M3_I
+D ESD Protection Diodes / TVS Diodes 600W,36V 5%, DFN3820A BIDIR TVS
+K
+F https://www.vishay.com/docs/98490/6dfn12cathru6dfn100ca.pdf
+$ENDCMP
+#
+#End Doc Library

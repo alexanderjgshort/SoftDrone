@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=6DFN36CA-M3/I
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=3
+Version=1.5
+Released=2024-10-21 11:06:29
+Downloaded=2026-09-13 03:01:20
+3D=Y

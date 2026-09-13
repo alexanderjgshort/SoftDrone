@@ -1,0 +1,18 @@
+.6DFN36CA-M3_I :1 ;ESD Protection Diodes / TVS Diodes 600W,36V 5%, DFN3820A BIDIR TVS
+SS5N42HM3I
+*STM D
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 6DFN36CA-M3_I
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (6DFN36CA-M3/I)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/docs/98490/6dfn12cathru6dfn100ca.pdf)
+~!Height (0.98mm)
+~!3D_Model (6DFN36CA-M3_I)
+"6DFN36CA-M3_I"
+1.1!U 2.1!U 3.1!U 
