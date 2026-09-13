@@ -712,6 +712,10 @@
       {
         "netclass": "Power",
         "pattern": "*VBAT*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VLX*"
       }
     ]
   },

@@ -1,0 +1,18 @@
+.74439324033 :1 ;WE-XHMI SMT Power Inductor Size 4030; L = 3.3 H +/-20%; IR = 7.10 A; Isat = 8.2 A; RDCmax = 25.5 m
+"74439324033"
+*STM L
+*NGS
+*PLB 1="N1+" 2="N1-"
+*MXP 2
+*DFN 74439324033
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (74439324033)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/74439324033.pdf)
+~!Height (3mm)
+~!3D_Model (74439324033)
+"74439324033"
+1.1!U 2.1!U 

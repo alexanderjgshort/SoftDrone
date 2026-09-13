@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74439324033
+D WE-XHMI SMT Power Inductor Size 4030; L = 3.3 H +/-20%; IR = 7.10 A; Isat = 8.2 A; RDCmax = 25.5 m
+K
+F https://www.we-online.com/catalog/datasheet/74439324033.pdf
+$ENDCMP
+#
+#End Doc Library

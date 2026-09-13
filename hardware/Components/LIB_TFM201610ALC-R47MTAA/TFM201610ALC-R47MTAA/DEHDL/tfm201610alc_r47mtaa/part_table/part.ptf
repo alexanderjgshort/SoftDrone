@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TFM201610ALC_R47MTAA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "TFM201610ALC-R47MTAA" (!) = "", "INDC2016X80N", "Inductors Chip", "810-TFM201610ALCR47M", "https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D", "TFM201610ALC-R47MTAA", "https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk?region=nac", "Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf", "0.8 mm"
+END_PART
+
+END.

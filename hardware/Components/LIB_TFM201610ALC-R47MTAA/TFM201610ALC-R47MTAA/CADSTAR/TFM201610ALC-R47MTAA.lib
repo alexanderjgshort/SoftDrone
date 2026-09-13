@@ -1,0 +1,18 @@
+.TFM201610ALC-R47MTAA :1 ;Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125
+INDC2016X80N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TFM201610ALC-R47MTAA
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (TFM201610ALC-R47MTAA)
+~!Mouser Part Number (810-TFM201610ALCR47M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D)
+~!Arrow Part Number (TFM201610ALC-R47MTAA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf)
+~!Height (0.8mm)
+~!3D_Model (TFM201610ALC-R47MTAA)
+TFM201610ALC-R47MTAA
+1.1!U 2.1!U 

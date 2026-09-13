@@ -15730,7 +15730,7 @@
 		)
 		(uuid "1ca79018-e59f-449b-9e23-89ce7f576494")
 	)
-	(label "MCU_VLXSMPS"
+	(label "VLXSMPS"
 		(at 220.98 161.29 0)
 		(effects
 			(font

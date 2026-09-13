@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74439324033'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "74439324033" (!) = "", "74439324033", "Other", "", "", "", "", "WE-XHMI SMT Power Inductor Size 4030; L = 3.3 H +/-20%; IR = 7.10 A; Isat = 8.2 A; RDCmax = 25.5 m", "https://www.we-online.com/catalog/datasheet/74439324033.pdf", "3 mm"
+END_PART
+
+END.
