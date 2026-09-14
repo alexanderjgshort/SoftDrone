@@ -4531,6 +4531,16 @@
 		)
 		(uuid "c4446435-398b-4444-ba5c-6d67bb1a790a")
 	)
+	(label "CC_DIG_LDO_OUT"
+		(at 69.85 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e039488c-3a2a-4d95-a28b-9bce0427bd58")
+	)
 	(label "CC_PA_LDO_OUT"
 		(at 64.77 69.85 0)
 		(effects
