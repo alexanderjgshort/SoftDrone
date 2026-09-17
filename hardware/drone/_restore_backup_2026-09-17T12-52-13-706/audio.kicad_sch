@@ -3052,16 +3052,6 @@
 		)
 		(uuid "fc004871-59c3-439b-aed7-0e166b6baf8c")
 	)
-	(label "CODEC_DREG"
-		(at 128.27 33.02 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "0eea65e6-b575-4349-bb6b-880acf98bbda")
-	)
 	(label "CODEC_OUT1P_2"
 		(at 176.53 77.47 0)
 		(effects
@@ -3082,7 +3072,7 @@
 		)
 		(uuid "2e3e873d-8296-408a-9ba6-8c320f2ee464")
 	)
-	(label "CODEC_OUT1N"
+	(label "CODEC_OUT1M"
 		(at 148.59 82.55 0)
 		(effects
 			(font
@@ -3102,7 +3092,7 @@
 		)
 		(uuid "4fcc5103-51ce-4d14-8eb7-1b134bc718ac")
 	)
-	(label "CODEC_OUT1N_1"
+	(label "CODEC_OUT1M_1"
 		(at 163.83 85.09 0)
 		(effects
 			(font
@@ -3112,17 +3102,7 @@
 		)
 		(uuid "5bb4cc9d-e81b-430c-aa23-bcef973c2a6f")
 	)
-	(label "CODEC_VREF"
-		(at 111.76 33.02 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "60071298-388c-4a7e-81dd-de8bd6f81a4a")
-	)
-	(label "CODEC_OUT1N_2"
+	(label "CODEC_OUT1M_2"
 		(at 176.53 85.09 0)
 		(effects
 			(font
@@ -3152,7 +3132,7 @@
 		)
 		(uuid "b3608ebf-b714-4aef-a119-142638213313")
 	)
-	(label "CODEC_MEM_IN1N"
+	(label "CODEC_MEM_IN1M"
 		(at 86.36 82.55 0)
 		(effects
 			(font
@@ -3172,7 +3152,7 @@
 		)
 		(uuid "d20d5c18-ac7f-432b-8e5c-579572b26df3")
 	)
-	(label "CODEC_MEM_IN1N_1"
+	(label "CODEC_MEM_IN1M_1"
 		(at 59.69 82.55 0)
 		(effects
 			(font
@@ -3657,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -4458,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 81.28 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -4699,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -5065,7 +5045,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 80.01 0)
+		(at 232.41 82.55 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5075,7 +5056,7 @@
 		(dnp no)
 		(uuid "9c69ab80-f4da-4655-ae2b-0ec387cfb532")
 		(property "Reference" "J6"
-			(at 233.68 80.0099 0)
+			(at 233.68 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5086,7 +5067,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 233.68 82.5499 0)
+			(at 233.68 80.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5097,7 +5078,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5108,7 +5089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5119,7 +5100,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 80.01 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 83.312 90)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 81.28 86.0552 0)
 			(hide yes)
 			(show_name no)
