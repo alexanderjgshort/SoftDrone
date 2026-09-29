@@ -2111,6 +2111,12 @@
 		(uuid "82e77cba-8088-4d5a-ab0a-1064eac56416")
 	)
 	(junction
+		(at 147.32 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "862dd5c4-3d38-45e8-9d62-928c55c4cd5f")
+	)
+	(junction
 		(at 134.62 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2287,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "27f178cf-0a06-4df8-abfb-d0b528dcba31")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2851c57b-5bcb-44e1-879d-238de935d28d")
 	)
 	(wire
 		(pts
@@ -2480,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 93.98) (xy 203.2 93.98)
+			(xy 137.16 93.98) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2597,6 +2613,16 @@
 			(type default)
 		)
 		(uuid "5bc66405-1870-41be-95a8-90a223c172ec")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652046e7-33b1-4f7e-9ecc-12a63af80141")
 	)
 	(wire
 		(pts
@@ -2757,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "81b35baa-5c37-45d2-acc9-360ce567c63a")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83603023-0f39-4433-bd72-01245ca3e4cd")
 	)
 	(wire
 		(pts
@@ -3020,6 +3056,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 72.39) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a4e181-7475-4b83-a001-8511bda2741d")
+	)
+	(wire
+		(pts
 			(xy 40.64 39.37) (xy 40.64 38.1)
 		)
 		(stroke
@@ -3037,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "d34fb694-5925-46a3-9348-5794b672d983")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49916f0-ddf8-460a-9e33-a19c331a7c6a")
 	)
 	(wire
 		(pts
@@ -5450,6 +5506,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 147.32 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "822498f9-6159-4190-87cc-0076dd11fd6b")
+		(property "Reference" "C126"
+			(at 151.13 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 151.13 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 148.2852 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb843657-5681-4242-ad67-0f436dcde5e3")
+		)
+		(pin "2"
+			(uuid "6bed0b78-fafe-45a6-aba4-7c7830dee46b")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 134.62 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5613,6 +5751,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952235a7-3cc1-43e0-99c4-88275a0c5633")
+		(property "Reference" "#PWR0180"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7066c9b-f991-46e2-a688-21eb102e9ec2")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 137.16 72.39 90)
 		(unit 1)
@@ -5767,6 +5983,84 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
 					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a477c196-b4ac-4ad6-a360-984f088a27f4")
+		(property "Reference" "#PWR0224"
+			(at 147.32 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "372dd5c7-1c6f-437d-87fd-512f1aa040c1")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -7055,6 +7349,88 @@
 			(project "drone"
 				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cfe1e207-7af2-4f9a-b14a-2b1cc9243f53")
+		(property "Reference" "C87"
+			(at 154.94 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 154.94 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.0952 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f59dd8e6-579a-4b68-b350-fbeb600d2102")
+		)
+		(pin "2"
+			(uuid "823e4e31-645a-449e-b4bc-d1aa3d27e982")
+		)
+		(instances
+			(project "drone"
+				(path "/62c402a6-ed3f-446b-8423-821e9cc6908b/65bc9e57-6095-4efd-893a-5e1083f61580"
+					(reference "C87")
 					(unit 1)
 				)
 			)
