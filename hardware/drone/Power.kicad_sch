@@ -19500,7 +19500,7 @@
 				)
 			)
 		)
-		(property "Value" "VSYS_5V_VBAT"
+		(property "Value" "VSYS_5V_BAT"
 			(at 309.372 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
