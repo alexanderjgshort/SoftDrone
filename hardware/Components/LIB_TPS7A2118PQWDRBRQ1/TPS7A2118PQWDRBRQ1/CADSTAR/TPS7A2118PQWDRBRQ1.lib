@@ -1,0 +1,18 @@
+.TPS7A2118PQWDRBRQ1 :1 ;Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 8-SON (3x3), -40C ~ 150C (TJ)
+SON65P300X300X100-9N-D
+*STM IC
+*NGS
+*PLB 1="OUT" 2="NC_1" 3="NC_2" 4="GND_1" 5="EN" 6="NC_3" 7="NC_4" 8="IN" 9="GND_2"
+*MXP 9
+*DFN TPS7A2118PQWDRBRQ1
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS7A2118PQWDRBRQ1)
+~!Mouser Part Number (595-7A2118PQWDRBRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2118PQWDRBRQ1?qs=dbcCsuKDzFX2e%252Bp94sZFQg%3D%3D)
+~!Arrow Part Number (TPS7A2118PQWDRBRQ1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps7a2118pqwdrbrq1/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/tps7a21-q1)
+~!Height (1mm)
+~!3D_Model (TPS7A2118PQWDRBRQ1)
+TPS7A2118PQWDRBRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

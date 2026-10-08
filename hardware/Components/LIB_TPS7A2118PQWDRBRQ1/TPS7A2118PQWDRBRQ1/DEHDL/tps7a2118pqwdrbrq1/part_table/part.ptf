@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS7A2118PQWDRBRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS7A2118PQWDRBRQ1" (!) = "", "SON65P300X300X100-9N-D", "Small Outline No-lead", "595-7A2118PQWDRBRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2118PQWDRBRQ1?qs=dbcCsuKDzFX2e%252Bp94sZFQg%3D%3D", "TPS7A2118PQWDRBRQ1", "https://www.arrow.com/en/products/tps7a2118pqwdrbrq1/texas-instruments?utm_currency=USD&region=nac", "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 8-SON (3x3), -40C ~ 150C (TJ)", "https://www.ti.com/lit/gpn/tps7a21-q1", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7A2118PQWDRBRQ1
+D Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 8-SON (3x3), -40C ~ 150C (TJ)
+K
+F https://www.ti.com/lit/gpn/tps7a21-q1
+$ENDCMP
+#
+#End Doc Library
