@@ -2798,6 +2798,16 @@
 		)
 		(uuid "64c86eb3-07b2-401a-a30e-31eb3aa0849d")
 	)
+	(text "TI CC335x Revised October 2025 values"
+		(exclude_from_sim no)
+		(at 145.542 157.48 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2dd28504-93ec-4fac-a15e-0d112c7aa62e")
+	)
 	(text "Diplexer + RF Filter"
 		(exclude_from_sim no)
 		(at 18.288 132.334 0)
@@ -5324,7 +5334,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p"
 			(at 137.16 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 170.4848 0)
 			(hide yes)
 			(show_name no)
@@ -6610,7 +6620,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c41ba59-2d49-4b46-bdd8-e4ed1617c142")
 		(property "Reference" "L5"
@@ -6635,7 +6645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6851,7 +6861,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "999b9430-44ca-46d7-951e-229d9bcd81a8")
 		(property "Reference" "L4"
@@ -6876,7 +6886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 129.54 177.8 0)
 			(hide yes)
 			(show_name no)

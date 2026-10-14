@@ -4988,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "0"
 			(at 260.35 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +5055,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5fb13de0-78c6-4385-9ef6-895b12065a64")
 		(property "Reference" "C59"
@@ -7134,7 +7134,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7b98278-c258-4188-b029-322829499f1c")
 		(property "Reference" "C60"

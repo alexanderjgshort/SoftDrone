@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "CSI via GND antipads"
+    (constraint clearance (min 0.30mm))
+    (condition "A.Type == 'Via' && A.hasNetclass('CSI') && B.Type == 'Zone' && B.Net == 'GND'")
+)
